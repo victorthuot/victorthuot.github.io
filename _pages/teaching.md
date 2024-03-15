@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: teaching / enseignement
+description: 
 nav: true
 nav_order: 6
 ---
+I am currently a teaching assistant in the Université of Montpellier. 
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<p> First semester 2023/2024: Algebra in first year of bachelor's degree. </p>
 
-Organize your courses by years, topics, or universities, however you like!
+<p> <p> Second semester 2023/2024: Calculus in first year of bachelor's degree. </p> </p>
