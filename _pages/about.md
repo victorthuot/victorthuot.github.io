@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in <a href='[https://mistea.montpellier.hub.inrae.fr/](https://www.inrae.fr/centres/occitanie-montpellier)'>INRAE Montpellier</a>,  <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>
+subtitle: PhD student in <a href='https://mistea.montpellier.hub.inrae.fr/'>INRAE Montpellier</a>,  <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>
 
 profile:
   align: right
