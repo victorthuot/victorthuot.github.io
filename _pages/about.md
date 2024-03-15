@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a first year Phd student in <a href='[https://mistea.montpellier.hub.inrae.fr/](https://www.inrae.fr/centres/occitanie-montpellier)'>INRAE Montpellier</a>. 
+I am a first year Phd student in <a href='https://mistea.montpellier.hub.inrae.fr/'>INRAE Montpellier</a>. 
 
 I work in the laboratory <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>, in the probability and statistics team. I am supervised by <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam university, Germany). I am funded by a thesis scholarship (CDSN) from the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a>  and on the <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI project</a>.
 
