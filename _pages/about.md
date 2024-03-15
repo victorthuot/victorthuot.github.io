@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student in <a href='https://mistea.montpellier.hub.inrae.fr/'>INRAE Montpellier</a>,  <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>
+subtitle: <h2> PhD student in <a href='https://mistea.montpellier.hub.inrae.fr/'>INRAE Montpellier</a>,  <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a> </h2>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p> Office 307 , Bat 23 </p>
     <p> 2 place Pierre Viala </p>
