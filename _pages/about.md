@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <h2> PhD student in <a href='https://mistea.montpellier.hub.inrae.fr/'>INRAE Montpellier</a>,  <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a> </h2>
+subtitle: <h4> PhD student in <a href='https://mistea.montpellier.hub.inrae.fr/'>INRAE Montpellier</a>,  <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a> </h2>
 
 profile:
   align: right
