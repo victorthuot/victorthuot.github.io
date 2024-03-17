@@ -39,7 +39,7 @@
   "interests": [
     {
       "name": "Mathematics",
-      "icon": "fa-solid fa-square-root",
+      "icon": "fa-solid fa-infty",
       "keywords": [
         "Statistics",
         "Probability",
@@ -73,68 +73,23 @@
         "institution": "ISTIC Rennes, Ens Rennes ",
         "location": "Rennes, France",
         "url": "https://istic.univ-rennes.fr/licence-informatique",
-        "area": "Software Development",
+        "area": "Computer Sciences",
         "studyType": "Bachelor",
         "startDate": "2019-09-01",
         "endDate": "2021-07-31",
         "courses": ["Theoretical IT, algorithmic, programming"]
+      },
+     {
+        "institution": "Henry Poincaré ",
+        "location": "Nancy, France",
+        "url": "https://lycee-poincare.fr/les-classes-preparatoires-scientifiques/#",
+        "area": "Mathematics, Physics & IT",
+        "studyType": "CPGE",
+        "startDate": "2019-09-01",
+        "endDate": "2021-07-31",
+        "courses": ["Intensive two year preparatory courses for the competitive entrance to top French engineering schools"]
       }
 
-  ],
-  "diploma": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
   ],
   "languages": [
     {
