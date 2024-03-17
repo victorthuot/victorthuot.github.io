@@ -36,7 +36,7 @@
       "highlights": ["title: Unsupervised active learning","keywords: Active learning, Clustering, Bandit Theory"]
     }
   ],
-  "Interests": [
+  "interests": [
     {
       "name": "Mathematics",
       "icon": "fa-solid fa-square-root",
