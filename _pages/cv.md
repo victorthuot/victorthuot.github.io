@@ -9,3 +9,5 @@ description:
 toc:
   sidebar: left
 ---
+
+<p> You can find here a short version of my resume.A longer (and french) version in available in the pdf above. </p>
