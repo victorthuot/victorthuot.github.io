@@ -5,7 +5,8 @@
     "image": "",
     "email": "victor.thuot@inrae.fr",
     "url": "https://victorthuot.github.io/",
-    "summary": "I am currently a PhD student in INRAE Montpellier. I work on mathmeatics, statistics and machine learning.",
+    "institution": "INRAE Montpellier",
+    "laboratory": "MISTEA",
     "location": {
       "address": "2 place Pierre Viala",
       "postalCode": "34060",
