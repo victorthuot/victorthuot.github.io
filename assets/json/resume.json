@@ -39,7 +39,7 @@
   "interests": [
     {
       "name": "Mathematics",
-      "icon": "fa-solid fa-infty",
+      "icon": "fa-solid fa-infinity",
       "keywords": [
         "Statistics",
         "Probability",
@@ -65,8 +65,8 @@
       "url": "https://math.ens-rennes.fr/",
       "area": "Mathematics",
       "studyType": "Master (Magistère)",
-      "startDate": "2019-09-01",
-      "endDate": "2023-07-31",
+      "startDate": "2019",
+      "endDate": "2023",
       "courses": ["theoretical and multidisciplinary training in mathematics","orientation for research and teaching","preparation for french competition to obtain a teaching position (Agrégation): received in position 67/365"]
     },
     {
@@ -75,8 +75,18 @@
         "url": "https://istic.univ-rennes.fr/licence-informatique",
         "area": "Computer Sciences",
         "studyType": "Bachelor",
-        "startDate": "2019-09-01",
-        "endDate": "2021-07-31",
+        "startDate": "2019",
+        "endDate": "2021",
+        "courses": ["Theoretical IT, algorithmic, programming"]
+      },
+     {
+        "institution": "Ens Rennes ",
+        "location": "Rennes, France",
+        "url": "https://math.ens-rennes.fr/",
+        "area": "Mathematics",
+        "studyType": "Bachelor",
+        "startDate": "2019",
+        "endDate": "2020",
         "courses": ["Theoretical IT, algorithmic, programming"]
       },
      {
