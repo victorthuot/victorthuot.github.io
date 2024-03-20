@@ -1,18 +1,11 @@
 {
-  "basics": {
+  "Contact": {
     "name": "Victor Thuot",
-    "position": "PhD Student",
-    "image": "",
     "email": "victor.thuot@inrae.fr",
     "url": "https://victorthuot.github.io/",
+    "Linkedin": ""
     "institution": "INRAE Montpellier",
     "laboratory": "MISTEA",
-    "location": {
-      "address": "2 place Pierre Viala",
-      "postalCode": "34060",
-      "city": "Montpellier CEDEX 2",
-      "countryCode": "France"
-    },
     "profiles": [
       {
         "network": "ORCID",
@@ -32,8 +25,8 @@
       "position": "PhD",
       "url": "https://www.inrae.fr/centres/occitanie-montpellier",
       "startDate": "2023-10-01",
-      "Supervision": "Nicolas Verzelen (Inrae Montpellier, France) & Alexandra Carpentier (Potsdam University, Germany)",
-      "Title": "Unsupervised active learning"
+      "supervision": "Nicolas Verzelen (Inrae Montpellier, France) & Alexandra Carpentier (Potsdam University, Germany)",
+      "title": "Unsupervised active learning",
       "highlights": ["Active learning, Clustering, Bandit Theory"]
     }
   ],
