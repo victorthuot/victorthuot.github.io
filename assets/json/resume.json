@@ -84,13 +84,13 @@
         "courses": 
       },
      {
-        "institution": "Henry Poincaré ",
+        "institution": "Lycée Henry Poincaré ",
         "location": "Nancy, France",
         "url": "https://lycee-poincare.fr/les-classes-preparatoires-scientifiques/#",
-        "area": "Mathematics, Physics & IT",
+        "area": "Mathematics, Physics & IT (MPSI-MP*)",
         "studyType": "CPGE",
-        "startDate": "2019",
-        "endDate": "2021",
+        "startDate": "2017",
+        "endDate": "2019",
         "courses": ["Intensive two year preparatory courses for the competitive entrance to top French engineering schools"]
       }
 
