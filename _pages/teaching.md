@@ -9,7 +9,7 @@ nav_order: 6
 
 <p>During this academic year, I had the opportunity to lead various teaching sessions:</p>
 
-<p style="text-decoration: underline;"> Teaching at <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>:</p>
+<p> <strong> Teaching at <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>: </strong> </p>
 <p>University of Montpellier -- 2023-2024 -- 63 hours total TD equivalent</strong>
 <ul>
   <li> <strong> Algebra I </strong>> (first semester): exercise sessions on linear systems for first-year Mathematics students. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/l1-porfil-mineure-info-choix-1-LEO2MUTM/algebre-i-systemes-lineaires-KO8DNX5L.html">here</a>.</li>
@@ -19,7 +19,7 @@ nav_order: 6
   <li> <strong> Agrégation </strong> : Contribution to the preparation for written and oral examinations for Master 2 students preparing the French 'Agrégation' in Mathematics . Preparation details <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">here</a>.</li>
 </ul>
 
-<p style="text-decoration: underline;"> Mentoring in the project  <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/"> "Apprentis chercheurs" </a>":</p>
+<p> <strong> Mentoring in the project  <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/"> "Apprentis chercheurs" </a>": </strong> </p>
  
 <p> Assocication "L'arbre des connaissances" - 2023-2024, 30 hours </p>
 
