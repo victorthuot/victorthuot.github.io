@@ -10,7 +10,7 @@ nav_order: 6
 <p>During this academic year, I had the opportunity to lead various teaching sessions:</p>
 
 <p> <strong> Teaching at <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>: </strong> </p>
-<p>University of Montpellier -- 2023-2024 -- 63 hours total TD equivalent</strong>
+<p>University of Montpellier -- 2023-2024 -- 63 hours total TD equivalent
 <ul>
   <li> <strong> Algebra I </strong>> (first semester): exercise sessions on linear systems for first-year Mathematics students. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/l1-porfil-mineure-info-choix-1-LEO2MUTM/algebre-i-systemes-lineaires-KO8DNX5L.html">here</a>.</li>
   
