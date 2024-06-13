@@ -19,7 +19,9 @@ nav_order: 6
   <li>Agrégation: Contribution to the preparation for written and oral examinations of the Agrégation in Mathematics at the University of Montpellier. Preparation details <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">here</a>.</li>
 </ul>
 
-<p style="text-decoration: underline;">Mentoring in "Apprentis Chercheurs" - 2023-2024, 30 hours:</p>
+<p style="text-decoration: underline;"> Mentoring in "Apprentis Chercheurs":</p>
+ 
+<p> Assocication "L'arbre des connaissances" - 2023-2024, 30 hours </p>
 
 <p>In addition, I mentored a project called "Apprentis Chercheurs" with <a href="https://davidmetivier.mistea.inrae.fr/">David Metivier</a> (<a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">details here</a>). Marius Bertrand and Mattis Dodson explored randomness, numerical simulation, and bandit algorithms under our guidance. Their project can be found on this interactive <a href="https://davidmetivier.mistea.inrae.fr/teaching/">webpage</a> created by David.</p>
 
