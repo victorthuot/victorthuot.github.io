@@ -23,6 +23,6 @@ nav_order: 6
  
 <p> Assocication "L'arbre des connaissances" - 2023-2024, 30 hours </p>
 
-<p>In addition, I mentored with <a href="https://davidmetivier.mistea.inrae.fr/">David Metivier</a> a project called "Apprentis Chercheurs" (<a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">details here</a>). Marius Bertrand (3ème) and Mattis Dodson (1ère) explored randomness, numerical simulation, and bandit algorithms under our guidance. The project can be found on this interactive <a href="https://davidmetivier.mistea.inrae.fr/teaching/">webpage</a> created by David.</p>
+<p>In addition, I mentored with <a href="https://davidmetivier.mistea.inrae.fr/">David Metivier</a> a project called "Apprentis Chercheurs" (<a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">details here</a>). Marius Bertrand (3ème) and Mattis Dodson (1ère) explored randomness, numerical simulation, and bandit algorithms under our guidance. The project can be found on this interactive <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">webpage</a> created by David.</p>
 
 <p>Thank you to the teachers and students for making this first teaching experience enriching.</p>
