@@ -11,7 +11,14 @@
       "position": "PhD student in INRAE Montpellier",
       "url": "https://mistea.montpellier.hub.inrae.fr/personnels/doctorants-post-doctorants",
       "startDate": "2023-10-01",
-      "highlights": ["<b> institution </b>:<a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier: National Research Institute for Agriculture, Food and Environment</a>","<b> laboratory </b>: <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA </a> </h2>","<b> supervision </b>: <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a>  (Potsdam University, Germany)","<b> funding </b>: CDSN from the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a> and ANR <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI</a>","<b> title and subject </b>: <a href='https://theses.fr/s372674'> Unsupervised active learning </a>","<b> keywords </b>: Active learning, Clustering, Bandit Theory"]
+      "highlights": [
+        "<b> institution </b>:<a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier: National Research Institute for Agriculture, Food and Environment</a>",
+        "<b> laboratory </b>: <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA </a> </h2>",
+        "<b> supervision </b>: <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a>  (Potsdam University, Germany)",
+        "<b> funding </b>: CDSN from the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a> and ANR grant <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI</a>",
+        "<b> title and subject </b>: <a href='https://theses.fr/s372674'> Unsupervised active learning </a>",
+        "<b> keywords </b>: Active learning, Clustering, Bandit Theory"]
+    
     }
   ],
   "interests": [
@@ -32,7 +39,7 @@
       "keywords": [
         "Algorithmic",
         "Computational complexity",
-        "machine learning"
+        "Machine Learning"
       ]
     }
   ],
@@ -45,7 +52,8 @@
       "studyType": "Master (Magistère)",
       "startDate": "2019",
       "endDate": "2023",
-      "courses": ["theoretical and multidisciplinary training in mathematics","orientation for research and teaching","preparation for french competition to obtain a teaching position (Agrégation): received in position 67/365"]
+      "courses": ["theoretical and multidisciplinary training in mathematics oriented towards research and teaching",
+                  "preparation for french Agrégation (competition to obtain a teaching position) : received in position 67/365"]
     },
     {
         "institution": "ISTIC Rennes, Ens Rennes ",
@@ -56,17 +64,7 @@
         "startDate": "2019",
         "endDate": "2021",
         "courses": ["Theoretical IT, algorithmic, programming"]
-      },
-     {
-        "institution": "Ens Rennes ",
-        "location": "Rennes, France",
-        "url": "https://math.ens-rennes.fr/",
-        "area": "Mathematics",
-        "studyType": "Bachelor",
-        "startDate": "2019",
-        "endDate": "2020",
-        "courses": ""
-      },
+      },,
      {
         "institution": "Lycée Henry Poincaré ",
         "location": "Nancy, France",
