@@ -16,7 +16,7 @@ nav_order: 6
   
   <li> <strong> Analysis II </strong> (second semester): exercise sessions introducing sequences, series, and series expansions for first-year Mathematics students . Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/analyse-ii-suites-series-developpements-limites-KO8DO78J.html">here</a>.</li>
   
-  <li>Agrégation: Contribution to the preparation for written and oral examinations of the Agrégation in Mathematics at the University of Montpellier. Preparation details <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">here</a>.</li>
+  <li> <strong> Agrégation </strong> : Contribution to the preparation for written and oral examinations for Master 2 students preparing the French 'Agrégation' in Mathematics . Preparation details <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">here</a>.</li>
 </ul>
 
 <p style="text-decoration: underline;"> Mentoring in "Apprentis Chercheurs":</p>
