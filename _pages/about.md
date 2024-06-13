@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: about me
 permalink: /
 subtitle: <h4> PhD student in  <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>, <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE</a>,  </h2>
 
