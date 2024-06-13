@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a first year Phd student in <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, under the supervision of <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam university, Germany). I work in <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>, in the probability and statistics team. 
+I am a first-year PhD student in <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, under the supervision of <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier,France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam university, Germany). My research is conducted within <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>, specifically in the Probability and Statistics team.
 
-The title of my PhD is "unsupervised active learning", my research belongs bandit theory, testing theory and more generally machine learning. I am particulary interested in the design of active learning algorithms applied to various type of statistical problems. You can find the subject of my thesis  <a href='https://theses.fr/s372674'> here </a>.
+The title of my PhD is "Unsupervised Active Learning". My research intersects bandit theory, testing theory, and more broadly, machine learning.  I am particulary interested in the design of active learning algorithms applied to various type of statistical problems. You can find the subject of my thesis  <a href='https://theses.fr/s372674'> here </a>.
 
-I am funded by a thesis scholarship (CDSN) obtained as a former student of the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a>. I am also funded on the <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI project</a>.
+I am funded by a thesis scholarship (CDSN) obtained as a former student of the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a>.  Additionally, my work is alsa suported by ANR grant <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI </a>.
 
