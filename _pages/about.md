@@ -23,5 +23,5 @@ I am a first-year PhD student in <a href='https://www.inrae.fr/centres/occitanie
 
 The title of my PhD is "Unsupervised Active Learning". My research intersects bandit theory, testing theory, and more broadly, machine learning.  I am particulary interested in the design of active learning algorithms applied to various type of statistical problems. You can find the subject of my thesis  <a href='https://theses.fr/s372674'> here </a>.
 
-I am funded by a thesis scholarship (CDSN) obtained as a former student of the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a>.  Additionally, my work is alsa suported by ANR grant <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI </a>.
+I am funded by a thesis scholarship (CDSN) obtained as a former student of the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a>.  Additionally, my work is also suported by ANR grant <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI </a>.
 
