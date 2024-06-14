@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://victor-thuot.github.io/sitemap.xml
+Sitemap: https://victorthuot.github.io/sitemap.xml
