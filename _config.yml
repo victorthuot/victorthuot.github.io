@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Victor Thuot # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Victor
 middle_name: 
 last_name: Thuot
@@ -16,7 +16,7 @@ keywords: PhD, doctorant, INRAE, statistics, active learning, clustering, Victor
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ♾️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: # the base hostname & protocol for your site
+url: https://victorthuot.github.io/ # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: true # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
