@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+<hr />
+
 <p>During this academic year, I had the opportunity to lead various teaching sessions:</p>
 
 <p> <strong> Teaching at <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>: </strong> </p>
@@ -18,8 +20,6 @@ nav_order: 6
   
   <li> <strong> Agrégation </strong> : Contribution to the preparation for written and oral examinations for Master 2 students preparing the French 'Agrégation' in Mathematics . Preparation details <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">here</a>.</li>
 </ul>
-
-<hr />
 
 <p> <strong> Mentoring for the project  <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/"> "Apprentis chercheurs" </a>: </strong> </p>
  
