@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I posted a preprint of my first work, called "active clustering with bandit feedback".
+My first paper "active clustering with bandit feedback", joint work with my supervisors and Christophe Giraud, is now available as a preprint in <a href="https://hal.inrae.fr/MISTEA/hal-04610780v1">Hal </a>Hal and <a href="https://arxiv.org/abs/2406.11485">ArXiv</a>.
