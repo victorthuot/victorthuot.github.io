@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Starting my PhD position in INRAE Montpellier !
+I was invited to give a talk at the doctoral seminar (semdoc) at the IMAG, Montpellier university. I presented a tutorial on bandit theory. 
