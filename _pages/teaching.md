@@ -24,7 +24,7 @@ nav_order: 6
 
 <p> University of Montpellier -- 2024-2025 -- 63 hours total (équivalent TD)
 <ul>
-  <li> <strong>  Measure and Integration, Fourier </strong>> (first semester): exercise sessions on intégration de Lebesgue for third-year mathematics students. Program details <a href=https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">here</a>.</li>
+  <li> <strong>  Measure and Integration, Fourier </strong>> (first semester): exercise sessions on intégration de Lebesgue for third-year mathematics students. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">here</a>.</li>
   
   <li> <strong> Math Remediation for biologists </strong> (first semester): a hybrid course combining lectures and exercises to help first-year biology students improve their math skills necessary for biology. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-sciences-de-la-vie-sante-environnement-svse-KNYLZM0G/l1-sciences-de-la-vie-sante-environnement-svse-KNYM0SZU/profil-svse-maths-remedia-M3SG8JAO/profil-serie-1-M3SG8JNA/choix-hav216x-hav213t-M3SG8JWN/remediation-en-mathematiques-s2-KO8EMU9W.html">here</a>.</li>
 </ul>
