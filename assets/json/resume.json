@@ -45,7 +45,7 @@
   ],
   "education": [
     {
-      "institution": "ENS Rennes, Université de Rennes",
+      "institution": "ENS Rennes, University of Rennes",
       "location": "Rennes, France",
       "url": "https://math.ens-rennes.fr/",
       "area": "Mathematics",
@@ -53,10 +53,11 @@
       "startDate": "2019",
       "endDate": "2023",
       "courses": ["theoretical and multidisciplinary training in mathematics oriented towards research and teaching",
-                  "preparation for french Agrégation (competition to obtain a teaching position) : received in position 67/365"]
+                  "preparation for french 'Agrégation' (competition to obtain a teaching position) : received in position 67/365", 
+                  "Specialization for the last year in priobability and statistics"]
     },
     {
-        "institution": "ISTIC Rennes, Ens Rennes ",
+        "institution": "ISTIC Rennes",
         "location": "Rennes, France",
         "url": "https://istic.univ-rennes.fr/licence-informatique",
         "area": "Computer Sciences",
@@ -64,6 +65,16 @@
         "startDate": "2019",
         "endDate": "2021",
         "courses": ["Theoretical IT, algorithmic, programming"]
+      },
+     {
+        "institution": "Ens Rennes ",
+        "location": "Rennes, France",
+        "url": "https://math.ens-rennes.fr/",
+        "area": "Mathematics",
+        "studyType": "Bachelor",
+        "startDate": "2019",
+        "endDate": "2020",
+        "courses": ["theoretical and multidisciplinary training in mathematics oriented towards research and teaching"]
       },
      {
         "institution": "Lycée Henry Poincaré ",
@@ -86,6 +97,11 @@
     {
       "language": "English",
       "fluency": "Fluent for academic purposes",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "Basic speaking skills",
       "icon": ""
     }
   ]
