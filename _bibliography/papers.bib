@@ -1,11 +1,14 @@
-@unpublished{thuot:hal-04610780,
-  abbr={preprint},
-  selected={true},
-  title = {Active clustering with bandit feedback},
-  author = {Thuot, Victor and Carpentier, Alexandra and Giraud, Christophe and Verzelen, Nicolas},
-  year = {2024},
-  arxiv={2406.11485},
-  pdf= {https://arxiv.org/pdf/2406.11485},
-  abstract={We investigate the Active Clustering Problem (ACP). A learner interacts with an 𝑁-armed stochastic bandit with 𝑑-dimensional subGaussian feedback. There exists a hidden partition of the arms into 𝐾 groups, such that arms within the same group, share the same mean vector. The learner's task is to uncover this hidden partition with the smallest budget - i.e., the least number of observation - and with a probability of error smaller than a prescribed constant 𝛿. In this paper, (i) we derive a non-asymptotic lower bound for the budget, and (ii) we introduce the computationally efficient ACB algorithm, whose budget matches the lower bound in most regimes. We improve on the performance of a uniform sampling strategy. Importantly, contrary to the batch setting, we establish that there is no computation-information gap in the active setting. }
-}
+@InProceedings{pmlr-v272-thuot25a,  
+title =  {Clustering with bandit feedback: breaking down the computation/information gap}, 
+author =       {Thuot, Victor and Carpentier, Alexandra and Giraud, Christophe and Verzelen, Nicolas},  
+booktitle =  {Proceedings of The 36th International Conference on Algorithmic Learning Theory},  
+pages =  {1221--1284},  
+year =  {2025},  
+editor =  {Kamath, Gautam and Loh, Po-Ling}, 
+volume =  {272},  series =  {Proceedings of Machine Learning Research}, 
+month =  {24--27 Feb},  
+publisher =    {PMLR},  
+pdf =  {https://raw.githubusercontent.com/mlresearch/v272/main/assets/thuot25a/thuot25a.pdf},  
+url =  {https://proceedings.mlr.press/v272/thuot25a.html},  
+abstract =  { We investigate the Clustering with Bandit feedback Problem (CBP). A learner interacts with an $N$-armed stochastic bandit with $d$-dimensional subGaussian feedback. There exists a hidden partition of the arms into $K$ groups, such that arms within the same group, share the same mean vector. The learner’s task is to uncover this hidden partition with the smallest budget - i.e. the least number of observation - and with a probability of error smaller than a prescribed constant $\delta$. In this paper, (i) we derive a non asymptotic lower bound for the budget, and (ii) we introduce the computationally efficient ACB algorithm, whose budget matches the lower bound in most regimes.  We improve on the performance of a uniform sampling strategy. Importantly, contrary to the batch setting, we establish that there is no computation-information gap in the bandit setting.}}
 
