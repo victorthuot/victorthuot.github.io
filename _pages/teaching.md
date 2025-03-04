@@ -11,7 +11,7 @@ nav_order: 6
 
 <p> During my PhD, I had the opportunity to lead various teaching sessions:</p>
 
-<p> <strong> Teaching at <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>: </strong> </p>
+<p> <strong> Teaching assistant at <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>: </strong> </p>
 
 <p>University of Montpellier -- 2023-2024 -- 63 hours (équivalent TD)
 <ul>
@@ -22,7 +22,7 @@ nav_order: 6
   <li> <strong> Agrégation </strong> : Contribution to the preparation for written and oral examinations for Master 2 students preparing the French 'Agrégation' in Mathematics . Preparation details <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">here</a>.</li>
 </ul>
 
-<p> University of Montpellier -- 2024-2025 -- 63 hours total (équivalent TD)
+<p> University of Montpellier -- 2024-2025 -- 63 hours (équivalent TD)
 <ul>
   <li> <strong>  Measure and Integration, Fourier </strong>> (first semester): exercise sessions on intégration de Lebesgue for third-year mathematics students. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">here</a>.</li>
   
