@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p> Laboratoire MISTEA </p>
-    <p> Bureau 307 , Bat 23 </p>
+    <p> Bureau 307 , Bat 21 </p>
     <p> 2 place Pierre Viala </p>
     <p> 34060, Montpellier CEDEX 2, France </p>
 
