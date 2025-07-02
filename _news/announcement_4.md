@@ -3,6 +3,7 @@ layout: post
 date: 2025-03-17 
 inline: true
 related_posts: false
+selected_news: false
 ---
 
 A preprint paper called "Clustering Items through Bandit Feedback: Finding the Right Feature out of Many", joint work Maximilain Graf,
