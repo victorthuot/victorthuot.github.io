@@ -3,6 +3,7 @@ layout: post
 date: 2024-12-04 07:59:00-0400
 inline: true
 related_posts: false
+selected-news: false
 ---
 
 I was invited to give a talk at the doctoral seminar (semdoc) at IMAG, Montpellier university. 
