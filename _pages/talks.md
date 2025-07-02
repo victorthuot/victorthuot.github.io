@@ -1,7 +1,7 @@
 ---
 layout: page
-title: news
-permalink: /news/
+title: talks
+permalink: /talks/
 nav: true
 nav_order: 3
 ---
