@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 selected_news: false
 ---
-Starting my PhD position in INRAE Montpellier ! 
+I started my PhD  in INRAE Montpellier, in MISTEA laboratory, supervised by Nicolas Verzelen and Alexandra Carpentier. 
