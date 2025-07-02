@@ -1,40 +1,30 @@
 <div class="news">
-  {% comment %} --- LATEST POSTS --- {% endcomment %}
-  {% assign latest_news = site.news | sort: 'date' | reverse %}
-  {% assign latest_limit = site.announcements.latest_limit %}
-  {% if latest_limit %}
-    {% assign latest_news = latest_news | slice: 0, latest_limit %}
-  {% endif %}
+  {% assign all_news = site.news | sort: "date" | reverse %}
 
-  {% if latest_news != blank %}
-    <h3> Latest News </h3>
-    <table class="table table-sm table-borderless">
-      {% for item in latest_news %}
-        <tr>
-          <th style="width: 20%">{{ item.date | date: "%b %d, %Y" }}</th>
-          <td>
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </td>
-        </tr>
-      {% endfor %}
-    </table>
-  {% endif %}
-
-  {% comment %} --- SELECTED POSTS --- {% endcomment %}
-  {% assign selected_news = site.news | where_exp: "item", "item.selected-news == true" | sort: 'date' | reverse %}
   {% assign selected_limit = site.announcements.selected_limit %}
-  {% if selected_limit %}
-    {% assign selected_news = selected_news | slice: 0, selected_limit %}
-  {% endif %}
+  {% assign news_limit = site.announcements.news_limit %}
 
-  {% if selected_news != blank %}
-    <h3>Highlighted Talks</h3>
+  {% assign selected_news = all_news | where_exp: "item", "item.selected-news == true" %}
+  {% assign selected_news = selected_news | slice: 0, selected_limit %}
+
+  {%- comment -%}
+  Get the remaining news, excluding already-selected ones
+  {%- endcomment -%}
+  {% assign selected_urls = selected_news | map: "url" %}
+  {% assign non_selected_news = all_news | reject: "url", selected_urls %}
+
+  {% assign remaining_limit = news_limit | minus: selected_news.size %}
+  {% assign remaining_news = non_selected_news | slice: 0, remaining_limit %}
+
+  {%- comment -%}
+  Merge the selected and remaining news, re-sort by date
+  {%- endcomment -%}
+  {% assign display_news = selected_news | concat: remaining_news %}
+  {% assign display_news = display_news | sort: "date" | reverse %}
+
+  {% if display_news != blank %}
     <table class="table table-sm table-borderless">
-      {% for item in selected_news %}
+      {% for item in display_news %}
         <tr>
           <th style="width: 20%">{{ item.date | date: "%b %d, %Y" }}</th>
           <td>
@@ -47,5 +37,7 @@
         </tr>
       {% endfor %}
     </table>
+  {% else %}
+    <p>No news so far…</p>
   {% endif %}
 </div>
