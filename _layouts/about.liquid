@@ -40,12 +40,12 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
+    <!-- Talks -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/talks/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/talks/' | relative_url }}" style="color: inherit">talks</a>
       </h2>
-      {% include slected_news.liquid limit=true %}
+      {% include selected_news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
