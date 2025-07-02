@@ -140,7 +140,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  latest_limit: 3 # leave blank to include all the blog posts
+  news_limit: 5 # leave blank to include all the blog posts
   selected_limit: 3 # leave blank to include all the blog posts
   
 latest_posts:
