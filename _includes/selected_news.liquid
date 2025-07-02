@@ -4,7 +4,7 @@
   {% assign selected_limit = site.announcements.selected_limit %}
   {% assign news_limit = site.announcements.news_limit %}
 
-  {% assign selected_news = all_news | where_exp: "item", "item.selected-news == true" %}
+  {% assign selected_news = all_news | where_exp: "item", "item.selected_news == true" %}
   {% assign selected_news = selected_news | slice: 0, selected_limit %}
 
   {%- comment -%}
@@ -29,12 +29,12 @@
           <th style="width: 20%">{{ item.date | date: "%b %d, %Y" }}</th>
           <td>
            {% if item.inline %}
-                {% if item.selected-news %}
+                {% if item.selected_news %}
                   <span title="Highlighted News">⭐️</span>
                 {% endif %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                {% if item.selected-news %}
+                {% if item.selected_news %}
                   <span title="Highlighted News">⭐️</span>
                 {% endif %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
