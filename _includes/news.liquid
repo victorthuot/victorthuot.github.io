@@ -19,11 +19,17 @@
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
+                {% if item.selected-news %}
+                  <span title="Highlighted News">⭐️</span>
+                {% endif %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
+                {% if item.selected-news %}
+                  <span title="Highlighted News">⭐️</span>
+                {% endif %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
-            </td>
+          </td>
           </tr>
         {% endfor %}
       </table>
