@@ -35,14 +35,5 @@
       </div>
     {% endif %}
   {% endfor %}
-
-  {% assign cited_publications = site.news | where_exp: "item", "item.related_publications == true" %}
-  {% if cited_publications != empty %}
-    <h2>References</h2>
-    <div class="publications">
-      {% bibliography --cited_in_order %}
-    </div>
-  {% endif %}
-
 </div>
 
