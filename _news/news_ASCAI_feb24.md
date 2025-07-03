@@ -8,4 +8,4 @@ category: talk
 related_publications: true
 
 ---
-I presented for the first time the project [@pmlr-v272-thuot25a] at the <a href="https://sites.google.com/view/prci-ascai/accueil">3rd ASCAI Workshop</a> in Potsdam, Germany. ([<a href="https://victorthuot.github.io/assets/pdf/slides_ASCAI_fev2024.pdf">Slides</a>])
+I presented for the first time the project {% cite pmlr-v272-thuot25a %} at the <strong> 3rd ASCAI Workshop</strong> in Potsdam, Germany [<a href="https://sites.google.com/view/prci-ascai/accueil">link</a>][<a href="https://victorthuot.github.io/assets/pdf/slides_ASCAI_fev2024.pdf">Slides</a>].
