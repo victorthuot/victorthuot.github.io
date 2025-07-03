@@ -4,7 +4,7 @@ date: 2023-09-18 08:00:00-0400
 inline: true
 related_posts: false
 selected_news: false
-category: "workshop"
+category: talk
 
 ---
 At the very beginning of my PhD, I attended the <a href="https://statmathappli.mathnum.inrae.fr/fr/past">StatMatAppli 2023</a> conference in Fréjus, France.
