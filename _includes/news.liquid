@@ -1,20 +1,20 @@
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
+  {% assign news = site.news | sort: 'date' | reverse %}
+
+  {% assign proceedings = news | where_exp: "item", "item.category == 'conference-paper'" %}
+  {% assign talks = news | where_exp: "item", "item.category == 'talk'" %}
+  {% assign local = news | where_exp: "item", "item.category == 'local'" %}
+
+  {% assign sections = "Conference Papers|Talks, Seminars & Workshops|Local Highlights" | split: "|" %}
+  {% assign categories = "proceedings|talks|local" | split: "|" %}
+
+  {% for section in (0..2) %}
+    <h2>{{ sections[section] }}</h2>
+    <div class="table-responsive">
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
-        {% if include.limit and site.announcements.limit %}
-          {% assign news_limit = site.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
-        {% endif %}
-        {% for item in news limit: news_limit %}
+        {% assign current = categories[section] %}
+        {% assign items = site.news | where: "category", current | sort: "date" | reverse %}
+        {% for item in items %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
@@ -29,12 +29,24 @@
                 {% endif %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
-          </td>
+            </td>
           </tr>
         {% endfor %}
       </table>
     </div>
-  {% else %}
-    <p>No news so far...</p>
+  {% endfor %}
+
+  {% assign has_bib = false %}
+  {% for item in site.news %}
+    {% if item.related_publications %}
+      {% assign has_bib = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_bib %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited %}
+    </div>
   {% endif %}
 </div>
