@@ -1,11 +1,11 @@
 <div class="news">
   {% assign news = site.news | sort: 'date' | reverse %}
 
-  {% assign proceedings = news | where_exp: "item", "item.category == 'conference-paper'" %}
-  {% assign talks = news | where_exp: "item", "item.category == 'talk'" %}
-  {% assign local = news | where_exp: "item", "item.category == 'local'" %}
+  {% assign proceedings = news | where_exp: "item", "item.category == "conference" %}
+  {% assign talks = news | where_exp: "item", "item.category == "talk" %}
+  {% assign local = news | where_exp: "item", "item.category == "local" %}
 
-  {% assign sections = "Conference Papers|Talks, Seminars & Workshops|Local Highlights" | split: "|" %}
+  {% assign sections = "Conference with proceedings| Talks, Seminars & Workshops|Local Highlights" | split: "|" %}
   {% assign categories = "proceedings|talks|local" | split: "|" %}
 
   {% for section in (0..2) %}
