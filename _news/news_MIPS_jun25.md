@@ -6,6 +6,6 @@ related_posts: false
 selected_news: true
 related_publications: true
 related_publications: true
-category: "talk"
+category: local
 ---
 I represented my laboratory during the <strong> MIPS Week</strong>, a multidisciplinary group at Université de Montpellier. I gave a short presentation on my project with Maximilian Graf [@graf2025clustering] ([<a href="https://victorthuot.github.io/assets/pdf/slides_MIPS_june2025.pdf">Slides</a>])
