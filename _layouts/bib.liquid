@@ -271,12 +271,15 @@
       {% endif %}
     {% endif %}
 
-      {% if entry.video %}
-      <!-- Hidden video block -->
-      <div class="abstract hidden">
-        <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+{% if entry.video %}
+  <div style="text-align: center; margin: 10px 0;">
+    <a href="{{ entry.video }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+      <div style="border: 1px solid #ccc; padding: 10px; border-radius: 8px; display: inline-block;">
+        ▶️ Watch video
       </div>
-    {% endif %}
+    </a>
+  </div>
+{% endif %}
 
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
