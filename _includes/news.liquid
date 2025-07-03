@@ -1,7 +1,7 @@
 <div class="news">
 
   {% assign categories = "conference,talk,local" | split: "," %}
-  {% assign section_titles = "Conferences with proceedings,Talks and seminars,Local activities" | split: "," %}
+  {% assign section_titles = "Conferences with proceedings,Talks,Workshops and seminars,Local activities" | split: "," %}
 
   {% for cat_index in (0..2) %}
     {% assign current_category = categories[cat_index] %}
