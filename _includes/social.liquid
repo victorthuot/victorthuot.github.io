@@ -16,8 +16,8 @@
 {% if site.semanticscholar_id %}
   <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
 {% endif %}
-{% if site.hal %}
- <a href="https://hal.science/{{ site.hal }}" title="HAL" target="_blank" rel="noopener"><img src="{{ '/assets/img/hal_logo.png' | relative_url }}" alt="HAL" style="height: 1.5em; vertical-align: middle;"></a>
+{% if site.hal_id %}
+ <a href="https://hal.science/{{ site.hal_id }}" title="HAL" target="_blank" rel="noopener"><img src="{{ '/assets/img/hal_logo.png' | relative_url }}" alt="HAL" style="height: 1.5em; vertical-align: middle;"></a>
 {% endif %}
 {% if site.publons_id %}
   <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a>
