@@ -15,7 +15,7 @@
         <table class="table table-sm table-borderless">
           {% for item in filtered_news %}
             <tr>
-             <th scope="row" style="width: 25%">
+             <th scope="row" style="width: 20%">
                 <div><strong>{{ item.date | date: '%b %d, %Y' }}</strong></div>
                 {% if item.title%}
                   <div style="font-size: 0.9rem; color: #555;">{{ item.title }}</div>
