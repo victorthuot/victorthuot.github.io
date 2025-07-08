@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 selected_news: false
 category: talk
-title:Amazon StatML
+title: Amazon StatML
 ---
 I attended the <a href="https://www.amazon.science/latest-news/amazon-to-host-statml-oxford-imperial-ml-workshop-in-berlin-office">Amazon StatML Workshop 2024</a> in Berlin.
