@@ -9,4 +9,4 @@ category: local
 title: 
 ---
 
-I presented our work {% cite pmlr-v272-thuot25a %} at the <strong>ML-MTP seminar</strong> hosted by INRIA Montpellier [<a href="https://victorthuot.github.io/assets/pdf/slides_ML-MTP_may2024.pdf">Slides</a>].
+I presented our work {% cite pmlr-v272-thuot25a %} at the ML-MTP seminar hosted by INRIA Montpellier [<a href="https://victorthuot.github.io/assets/pdf/slides_ML-MTP_may2024.pdf">Slides</a>].
