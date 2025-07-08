@@ -1,0 +1,10 @@
+---
+layout: post
+date: 2023-09-18 08:00:00-0400
+inline: true
+related_posts: false
+selected_news: true
+category: talk
+
+---
+I will attended the <a href="https://statmathappli.mathnum.inrae.fr/fr/">StatMatAppli 2025</a> conference in Fréjus, France. I will give a talk on Friday about my last paper with Maximilian Graf 
