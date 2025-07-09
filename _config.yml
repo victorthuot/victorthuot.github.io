@@ -135,9 +135,13 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
-    output: false
-    permalink: /projects/:path/
+
+collections:
+  news_french:
+   defaults:
+      layout: post
+    output: true
+    permalink: /fr/news/:path/
 
 announcements:
   enabled: true
