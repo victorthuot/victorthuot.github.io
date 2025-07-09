@@ -135,8 +135,6 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-
-collections:
   news_french:
     defaults:
       layout: post
