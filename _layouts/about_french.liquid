@@ -8,7 +8,7 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        {{ site.title_french }}
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
@@ -43,9 +43,9 @@ layout: default
     <!-- Talks -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit"> Highlights </a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit"> Dernières nouvelles </a>
       </h2>
-      {% include selected_news.liquid limit=true %}
+      {% include selected_news_french.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
@@ -59,7 +59,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"> publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"> Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
