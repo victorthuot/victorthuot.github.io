@@ -3,7 +3,7 @@ layout: page
 permalink: /fr/enseignement/
 title: enseignement
 description: 
-nav: falve
+nav: false
 nav_order: 6
 ---
 
