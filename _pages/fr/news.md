@@ -1,9 +1,9 @@
 ---
 layout: page
-title: évènements
+title: événements
 permalink: /fr/news/
 nav: true
 nav_order: 3
 ---
 
-{% include news.liquid %}
+{% include news_french.liquid %}
