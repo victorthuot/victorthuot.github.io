@@ -7,7 +7,7 @@ subtitle: <h4> PhD student in  <a href='https://mistea.montpellier.hub.inrae.fr/
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p> Laboratoire MISTEA </p>
     <p> Bureau 307 , Bat 21 </p>
