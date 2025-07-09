@@ -1,6 +1,6 @@
 ---
 layout: about
-title: à propos
+title: Accueil
 permalink: /fr
 subtitle: <h4> Doctorant au <a href='https://mistea.montpellier.hub.inrae.fr/'>laboratoire MISTEA</a>, <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE</a></h4>
 
