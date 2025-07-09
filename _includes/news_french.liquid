@@ -1,0 +1,43 @@
+<div class="news">
+
+  {% assign categories = "conference,talk,local" | split: "," %}
+  {% assign section_titles = "Conférences avec publication, Conférences et présentations,Implication locale" | split: "," %}
+
+  {% for cat_index in (0..2) %}
+    {% assign current_category = categories[cat_index] %}
+    {% assign current_title = section_titles[cat_index] %}
+
+    {% assign filtered_news = site.news | where: "category", current_category | sort: "date" | reverse %}
+
+    {% if filtered_news != empty %}
+      <h2>{{ current_title }}</h2>
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+          {% for item in filtered_news %}
+            <tr>
+             <th scope="row" style="width: 25%; word-break: break-word;">
+                <div><strong>{{ item.date | date: '%b %d, %Y' }}</strong></div>
+                {% if item.title%}
+                  <div style="font-weight: normal; font-size: 0.9em; margin-top: 0.2em;"><strong>{{ item.title }}</strong></div>
+                {% endif %}
+            </th>
+              <td>
+                {% if item.inline %}
+                  {% if item.selected_news %}
+                    <span title="Temps fort">⭐️</span>
+                  {% endif %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                {% else %}
+                  {% if item.selected_news %}
+                    <span title="Temps fort">⭐️</span>
+                  {% endif %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
