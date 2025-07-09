@@ -4,7 +4,7 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
+      {% if site.title_french == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
@@ -41,9 +41,9 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- Talks -->
-    {% if page.news and site.announcements.enabled %}
+    {% if page.news_french and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit"> Dernières nouvelles </a>
+        <a href="{{ '/fr/news/' | relative_url }}" style="color: inherit"> Dernières nouvelles </a>
       </h2>
       {% include selected_news_french.liquid limit=true %}
     {% endif %}
