@@ -2,7 +2,7 @@
 layout: page
 title: événements
 permalink: /fr/news/
-nav: true
+nav: false
 nav_order: 3
 ---
 
