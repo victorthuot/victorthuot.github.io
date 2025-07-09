@@ -7,7 +7,7 @@
     {% assign current_category = categories[cat_index] %}
     {% assign current_title = section_titles[cat_index] %}
 
-    {% assign filtered_news = site.news | where: "category", current_category | sort: "date" | reverse %}
+    {% assign filtered_news = site.news_french | where: "category", current_category | sort: "date" | reverse %}
 
     {% if filtered_news != empty %}
       <h2>{{ current_title }}</h2>
