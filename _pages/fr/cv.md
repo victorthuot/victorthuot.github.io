@@ -2,7 +2,7 @@
 layout: page
 permalink: /assets/pdf/cv_thuot_victor.pdf
 title: cv 
-nav: true
+nav: false
 nav_order: 5
 lang: fr
 group: cv
