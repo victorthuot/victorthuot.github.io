@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /fr/publications/
 title: publications
 description: 
 nav: false
