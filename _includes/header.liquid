@@ -107,6 +107,19 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% assign grouped_news = site.pages | where: "group", "news" %}
+            <li class="nav-item dropdown {% if page.group == 'news' %}active{% endif %}">
+              <a class="nav-link dropdown-toggle" href="#" id="newsDropdown" role="button" data-toggle="dropdown">
+                📰 News
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                {% for p in grouped_news %}
+                  <a class="dropdown-item {% if page.url == p.url %}active{% endif %}" href="{{ p.url | relative_url }}">
+                    {% if p.lang == 'fr' %}🇫🇷{% elsif p.lang == 'en' %}🇬🇧{% endif %} {{ p.title }}
+                  </a>
+                {% endfor %}
+              </div>
+            </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
