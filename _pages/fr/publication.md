@@ -4,7 +4,7 @@ permalink: /fr/publications/
 title: publications
 description: 
 nav: true
-nav_order: 3
+nav_order: 2
 group: publications
 lang: fr
 ---
