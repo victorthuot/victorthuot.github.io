@@ -2,7 +2,7 @@
 layout: page
 title: actualités
 permalink: /fr/news/
-nav: false
+nav: true
 nav_order: 3
 lang: fr
 group: news
