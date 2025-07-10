@@ -18,7 +18,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 group: about
-lang: fr
+lang: en
 ---
 
 I am a second-year PhD student in <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, under the supervision of <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam university, Germany). My research is conducted within <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>, specifically in the Probability and Statistics team.
