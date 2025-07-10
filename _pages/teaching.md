@@ -5,6 +5,8 @@ title: teaching
 description: 
 nav: true
 nav_order: 6
+lang: en
+group: teaching
 ---
 
 <hr />
