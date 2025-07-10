@@ -130,3 +130,7 @@
 {% endif %}
 
 <link rel="stylesheet" href="{{ '/assets/css/main.scss' | relative_url }}">
+
+<link rel="alternate" hreflang="fr" href="{{ page.alternate.fr | default: site.url | append: '/fr/' }}" />
+<link rel="alternate" hreflang="en" href="{{ page.alternate.en | default: site.url | append: '/' }}" />
+
