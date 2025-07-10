@@ -57,6 +57,35 @@
           </li>
 
           <!-- Other pages -->
+          {%- assign nav_pages = site.pages | where: "nav", true | sort: "nav_order" -%}
+          {%- assign grouped = nav_pages | group_by: "group" -%}
+          {% for item in grouped %}
+            {% assign translations = item.items %}
+            {% assign page_fr = translations | where: "lang", "fr" | first %}
+            {% assign page_en = translations | where: "lang", "en" | first %}
+            {% assign is_active = page.url == page_fr.url or page.url == page_en.url %}
+          
+            <li class="nav-item dropdown {% if is_active %}active{% endif %}">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown-{{ item.name }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {% if page_fr and page.lang == 'fr' %}{{ page_fr.title }}
+                {% elsif page_en and page.lang == 'en' %}{{ page_en.title }}
+                {% else %}{{ item.name }}{% endif %}
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-{{ item.name }}">
+                {% if page_en %}
+                  <a class="dropdown-item {% if page.url == page_en.url %}active{% endif %}" href="{{ page_en.url | relative_url }}">
+                    🇬🇧 {{ page_en.title }}
+                  </a>
+                {% endif %}
+                {% if page_fr %}
+                  <a class="dropdown-item {% if page.url == page_fr.url %}active{% endif %}" href="{{ page_fr.url | relative_url }}">
+                    🇫🇷 {{ page_fr.title }}
+                  </a>
+                {% endif %}
+              </div>
+            </li>
+          {% endfor %}
+
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
