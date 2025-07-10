@@ -5,6 +5,8 @@ title: enseignement
 description: 
 nav: true
 nav_order: 6
+lang: fr
+group: teaching
 ---
 
 <hr />
