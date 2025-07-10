@@ -1,10 +1,9 @@
 ---
 layout: page
-permalink: /assets/pdf/cv_thuot_victor.pdf
-title: cv 
+permalink: /fr/cv/
 nav: true
 nav_order: 5
 lang: fr
 group: cv
-description:
+redirect_to: /assets/pdf/cv_thuot_victor.pdf
 ---
