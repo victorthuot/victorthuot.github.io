@@ -2,28 +2,23 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+  {% if page.permalink != '/' and page.permalink != '/fr/' %}
+  <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/{{ page.lang == 'fr' | if: 'fr/', '' }}">
+    {% if site.title == 'blank' %}
+      {% if site.first_name %}
+        <span class="font-weight-bold">{{- site.first_name -}}</span>
       {% endif %}
+      {% if site.middle_name %}{{- site.middle_name -}}{% endif %}
+      {% if site.last_name %}{{- site.last_name -}}{% endif %}
+    {% else %}
+      {{- site.title -}}
+    {% endif %}
+  </a>
+{% elsif site.enable_navbar_social %}
+  <!-- Social Icons -->
+  <div class="navbar-brand social">{% include social.liquid %}</div>
+{% endif %}
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -40,11 +35,19 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
-          {% endfor %}
+    <div class="collapse navbar-collapse text-right" id="navbarNav">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+        {% assign about_page = site.pages | where: "group", "about" | where: "lang", page.lang | first %}
+    
+        <li class="nav-item {% if page.permalink == about_page.permalink %}active{% endif %}">
+          <a class="nav-link" href="{{ about_page.url | relative_url }}">
+            {{- about_page.title }}
+            {% if page.permalink == about_page.permalink %}
+              <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
