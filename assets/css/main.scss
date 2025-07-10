@@ -21,3 +21,21 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.navbar .nav-item .lang-switch {
+  font-size: 1.2em;
+  padding: 0.2em 0.5em;
+  margin-left: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .nav-item .lang-switch:hover {
+  background-color: #f0f0f0;
+  border-color: #888;
+  text-decoration: none;
+}
