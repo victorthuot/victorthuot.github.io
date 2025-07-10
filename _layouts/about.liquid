@@ -41,18 +41,22 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- Talks / News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ page.lang == 'fr' | if: true then '/fr/news/' else '/news/' | relative_url }}" style="color: inherit">
-          {% if page.lang == 'fr' %}Actualités {% else %}  Selected news{% endif %}
-        </a>
-      </h2>
-      {% if page.lang == "fr" %}
-        {% include selected_news_french.liquid %}
-      {% else %}
-        {% include selected_news.liquid %}
-      {% endif %}
+{% if page.news and site.announcements.enabled %}
+  <h2>
+    {% assign news_url = '/news/' %}
+    {% if page.lang == 'fr' %}
+      {% assign news_url = '/fr/news/' %}
     {% endif %}
+    <a href="{{ news_url | relative_url }}" style="color: inherit">
+      {% if page.lang == 'fr' %}Actualités{% else %}Selected news{% endif %}
+    </a>
+  </h2>
+  {% if page.lang == "fr" %}
+    {% include selected_news_french.liquid %}
+  {% else %}
+    {% include selected_news.liquid %}
+  {% endif %}
+{% endif %}
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
