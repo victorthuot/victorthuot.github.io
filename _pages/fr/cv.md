@@ -1,5 +1,6 @@
 ---
 layout: redirect
+title: cv
 redirect_to: /assets/pdf/cv_thuot_victor.pdf
 permalink: /fr/cv/
 nav: true
