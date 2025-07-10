@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+  <link rel="canonical" href="{{ page.redirect_to | relative_url }}">
+  <title>Redirection...</title>
+</head>
+<body>
+  <p>Redirection vers <a href="{{ page.redirect_to | relative_url }}">{{ page.redirect_to }}</a>…</p>
+</body>
+</html>
