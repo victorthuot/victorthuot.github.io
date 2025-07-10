@@ -47,7 +47,12 @@ layout: default
           {% if page.lang == 'fr' %}Actualités {% else %}  Selected news{% endif %}
         </a>
       </h2>
-      {% include selected_news.liquid limit=true %}
+      {% if page.lang == "fr" %}
+        {% include selected_news_french.liquid %}
+      {% else %}
+        {% include selected_news.liquid %}
+      {% endif %}
+    {% endif %}
      
     {% endif %}
 
