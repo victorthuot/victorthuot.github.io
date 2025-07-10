@@ -108,20 +108,7 @@
             {% endif %}
           {% endfor %}
           
-          {% assign current_group = page.group %}
-          {% assign current_lang = page.lang %}
-          {% assign translations = site.pages | where: "group", current_group %}
-          {% for trans in translations %}
-            {% unless trans.url == page.url %}
-              <li class="nav-item">
-                <a class="nav-link lang-switch" href="{{ trans.url | relative_url }}" title="Switch language">
-                  {% if trans.lang == "en" %}🇬🇧{% endif %}
-                  {% if trans.lang == "fr" %}🇫🇷{% endif %}
-                </a>
-              </li>
-            {% endunless %}
-          {% endfor %}
-
+         
           {% assign current_group = page.group %}
           {% assign translations = site.pages | where: "group", current_group %}
           
