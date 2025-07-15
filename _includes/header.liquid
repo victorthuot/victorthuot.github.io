@@ -128,9 +128,9 @@
           <li class="nav-item dropdown language-selector">
             <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               {% if page.lang == "fr" %}
-                🇫🇷 Français
+                🇫🇷
               {% elsif page.lang == "en" %}
-                🇬🇧 English
+                🇬🇧
               {% endif %}
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
@@ -138,9 +138,9 @@
                 {% unless trans.url == page.url %}
                   <a class="dropdown-item" href="{{ trans.url | relative_url }}">
                     {% if trans.lang == "fr" %}
-                      🇫🇷 Français
+                      🇫🇷
                     {% elsif trans.lang == "en" %}
-                      🇬🇧 English
+                      🇬🇧 
                     {% endif %}
                   </a>
                 {% endunless %}
