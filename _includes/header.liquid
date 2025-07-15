@@ -119,36 +119,43 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          
-         
+
           {% assign current_group = page.group %}
           {% assign translations = site.pages | where: "group", current_group %}
+          {% assign target_lang = nil %}
+          {% assign target_url = nil %}
           
           {% if translations.size > 1 %}
-          <li class="nav-item dropdown language-selector">
-            <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              {% if page.lang == "fr" %}
-                🇫🇷
-              {% elsif page.lang == "en" %}
-                🇬🇧
-              {% endif %}
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langDropdown">
-              {% for trans in translations %}
-                {% unless trans.url == page.url %}
-                  <a class="dropdown-item" href="{{ trans.url | relative_url }}">
-                    {% if trans.lang == "fr" %}
-                      🇫🇷
-                    {% elsif trans.lang == "en" %}
-                      🇬🇧 
-                    {% endif %}
-                  </a>
-                {% endunless %}
-              {% endfor %}
-            </div>
-          </li>
+            {% for trans in translations %}
+              {% unless trans.url == page.url %}
+                {% assign target_lang = trans.lang %}
+                {% assign target_url = trans.url %}
+              {% endunless %}
+            {% endfor %}
+          {% else %}
+            {% if page.lang == "fr" %}
+              {% assign about_page = site.pages | where: "permalink", "/" | first %}
+              {% assign target_lang = "en" %}
+            {% else %}
+              {% assign about_page = site.pages | where: "permalink", "/fr/" | first %}
+              {% assign target_lang = "fr" %}
+            {% endif %}
+            {% assign target_url = about_page.url %}
+          {% endif %}
+          
+          {% if target_url %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ target_url | relative_url }}" title="Switch language">
+                {% if target_lang == "fr" %}
+                  🇫🇷
+                {% elsif target_lang == "en" %}
+                  🇬🇧
+                {% endif %}
+              </a>
+            </li>
           {% endif %}
 
+      
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
