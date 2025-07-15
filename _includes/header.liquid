@@ -2,8 +2,13 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-  {% if page.permalink != '/' and page.permalink != '/fr/' %}
-  <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/{{ page.lang == 'fr' | if: 'fr/', '' }}">
+{% if page.permalink != '/' and page.permalink != '/fr/' %}
+  {% assign home_url = '/' %}
+  {% if page.lang == 'fr' %}
+    {% assign home_url = '/fr/' %}
+  {% endif %}
+
+  <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
     {% if site.title == 'blank' %}
       {% if site.first_name %}
         <span class="font-weight-bold">{{- site.first_name -}}</span>
