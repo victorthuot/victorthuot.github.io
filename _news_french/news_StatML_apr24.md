@@ -7,4 +7,4 @@ selected_news: false
 category: talk
 title: Amazon StatML
 ---
-J’ai assisté à l’<a href="https://www.amazon.science/latest-news/amazon-to-host-statml-oxford-imperial-ml-workshop-in-berlin-office">Amazon StatML Workshop 2024</a> à Berlin.
+Dans le cadre d'une visite à Potsdam pour travailler avec Alexandra Carpentier, j’ai assisté à une série de présentation à Amazon Berlin <a href="https://www.amazon.science/latest-news/amazon-to-host-statml-oxford-imperial-ml-workshop-in-berlin-office">Amazon StatML Workshop 2024</a>.
