@@ -10,3 +10,6 @@ permalink: /fr/news/
 ---
 
 {% include news_french.liquid %}
+<!-- Références citées dans les news incluses -->
+{% cite graf2025clustering pmlr-v272-thuot25a %}
+
