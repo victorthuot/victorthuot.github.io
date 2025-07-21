@@ -6,6 +6,7 @@ nav: true
 nav_order: 4
 lang: en
 group: news
+related_publications: true
 ---
 
 {% include news.liquid %}
