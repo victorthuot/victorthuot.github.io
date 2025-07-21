@@ -12,4 +12,7 @@ related_publications: true
 {% include news.liquid %}
 
 <!-- Références citées dans les news incluses -->
-{% cite graf2025clustering pmlr-v272-thuot25a %}
+<div style="display: none;">
+   {% cite graf2025clustering pmlr-v272-thuot25a %}
+</div>
+
