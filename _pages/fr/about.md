@@ -25,4 +25,4 @@ Je suis doctorant en deuxième année à l’<a href='https://www.inrae.fr/centr
 
 Le titre de ma thèse est « Apprentissage actif non supervisé ». Mes travaux portent sur la théorie des bandits stochastiques, à l’intersection entre machine learning et statistiques classiques. Je m’intéresse particulièrement à la conception et l'analyse d’algorithmes d’apprentissage actif appliqués à différents types de problèmes statistiques. Vous pouvez consulter le sujet de ma thèse <a href='https://theses.fr/s372674'>ici</a>.
 
-Je bénéficie d’un financement doctoral du CDSN, obtenu en tant qu’ancien élève de l’<a href='https://www.ens-rennes.fr/'>ENS Rennes</a>. Mon travail est également soutenu par le projet ANR <a href='https://sites.google.com/view/prci-ascai/accueil'>ASCAI</a>.
+Je bénéficie d’un financement doctoral (CDSN), obtenu en tant qu’ancien élève de l’<a href='https://www.ens-rennes.fr/'>ENS Rennes</a>. Mon travail est également soutenu par le projet ANR <a href='https://sites.google.com/view/prci-ascai/accueil'>ASCAI</a>.
