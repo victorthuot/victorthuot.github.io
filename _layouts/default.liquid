@@ -5,12 +5,14 @@
     {% if page.redirect %}
       {% if page.redirect == true %}
         {% assign redirect = site.baseurl | append: '/' %}
+        <meta http-equiv="refresh" content="2; url={{ redirect }}">
       {% elsif page.redirect contains '://' %}
         {% assign redirect = page.redirect %}
+        <meta http-equiv="refresh" content="0; url={{ redirect }}">
       {% else %}
         {% assign redirect = page.redirect | relative_url %}
+        <meta http-equiv="refresh" content="0; url={{ redirect }}">
       {% endif %}
-      <meta http-equiv="refresh" content="0.1; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
   </head>
