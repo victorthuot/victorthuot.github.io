@@ -7,5 +7,5 @@ selected_news: false
 category: talk
 title: StatMathAppli
 ---
-Je participerai à la conférence <a href="https://statmathappli.mathnum.inrae.fr/fr/">StatMathAppli 2025</a> à Fréjus, en France.
-J’y donnerai une présentation le vendredi sur mon dernier article avec Maximilian Graf {% cite graf2025clustering %}.
+J'ai participé à la conférence <a href="https://statmathappli.mathnum.inrae.fr/fr/">StatMathAppli 2025</a> à Fréjus, en France.
+J’y ai donné une prsentation le vendredi sur mon dernier article avec Maximilian Graf {% cite graf2025clustering %} [<a href="https://victorthuot.github.io/assets/pdf/slides_SMA_sept2025.pdf">Slides</a>].
