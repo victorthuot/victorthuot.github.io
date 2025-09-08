@@ -7,4 +7,4 @@ selected_news: false
 category: talk
 title: StatMathAppli
 ---
-I attended the <a href="https://statmathappli.mathnum.inrae.fr/fr/">StatMathAppli 2025</a> conference in Fréjus, France. I gaved a talk on Friday about my last paper with Maximilian Graf {% cite graf2025clustering %}. 
+I attended the <a href="https://statmathappli.mathnum.inrae.fr/fr/">StatMathAppli 2025</a> conference in Fréjus, France. I gaved a talk on Friday about my last paper with Maximilian Graf {% cite graf2025clustering %} [<a href="https://victorthuot.github.io/assets/pdf/slides_SMA_sept2025.pdf">Slides</a>]. 
