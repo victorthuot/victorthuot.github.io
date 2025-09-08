@@ -21,7 +21,7 @@ group: about
 lang: fr
 ---
 
-Je suis doctorant en deuxième année à l’<a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, sous la direction de <a href='https://verzelen.montpellier.inrae.fr/'>Nicolas Verzelen</a> (INRAE Montpellier, France) et <a href='https://sites.google.com/site/alexandracarpentierresearch/'>Alexandra Carpentier</a> (Université de Potsdam, Allemagne). J'effectue ma thèse au <a href='https://mistea.montpellier.hub.inrae.fr/'>laboratoire MISTEA</a>, dans l’équipe Probabilités et Statistiques.
+Je suis doctorant en troisème année à l’<a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, sous la direction de <a href='https://verzelen.montpellier.inrae.fr/'>Nicolas Verzelen</a> (INRAE Montpellier, France) et <a href='https://sites.google.com/site/alexandracarpentierresearch/'>Alexandra Carpentier</a> (Université de Potsdam, Allemagne). J'effectue ma thèse au <a href='https://mistea.montpellier.hub.inrae.fr/'>laboratoire MISTEA</a>, dans l’équipe Probabilités et Statistiques.
 
 Le titre de ma thèse est « Apprentissage actif non supervisé ». Mes travaux portent sur la théorie des bandits stochastiques, à l’intersection entre machine learning et statistiques classiques. Je m’intéresse particulièrement à la conception et l'analyse d’algorithmes d’apprentissage actif appliqués à différents types de problèmes statistiques. Vous pouvez consulter le sujet de ma thèse <a href='https://theses.fr/s372674'>ici</a>.
 
