@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 group: about
 lang: en
 ---
-I am a third-year PhD student in <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, under the supervision of <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam university, Germany). My research is conducted within <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>, specifically in the Probability and Statistics team.
+I am a third-year PhD student in <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, under the supervision of <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam university, Germany). My research is conducted within <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a>, in the Probability and Statistics team.
 
 The title of my PhD is "Unsupervised Active Learning". My research intersects bandit theory, testing theory, and more broadly, machine learning.  I am particulary interested in the design of active learning algorithms applied to various type of statistical problems. You can find the subject of my thesis  <a href='https://theses.fr/s372674'> here </a>.
 
