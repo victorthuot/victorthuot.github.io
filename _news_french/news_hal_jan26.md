@@ -8,4 +8,4 @@ related_publications: true
 category: selected
 title: Preprint
 ---
-Vous pouvez trouver un preprint du papier  <a href="https://raw.githubusercontent.com/mlresearch/v272/main/assets/thuot25a/thuot25a.pdf"> Clustering with bandit feedback: breaking down the computation/information gap </a> {% cite pmlr-v272-thuot25a %} fruit d'un travail en cours avec Sebastian Vogt, Debarghya Ghoshdastidar, and Nicolas Verzelen.
+Vous pouvez trouver un preprint du papier   <a href="https://hal.science/hal-05451062v1/file/main.pdf"> Nonparametric Kernel Clustering with Bandit Feedback </a> {% cite pmlr-v272-thuot25a %} fruit d'un travail en cours avec Sebastian Vogt, Debarghya Ghoshdastidar, and Nicolas Verzelen.
