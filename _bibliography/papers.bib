@@ -35,3 +35,19 @@
   poster={https://icml.cc/media/PosterPDFs/ICML%202025/46248.png?t=1751457454.1604605},
   abstract={We study the problem of clustering a set of items based on bandit feedback. Each of the n items is characterized by a feature vector, with a possibly large dimension d. The items are partitioned into two unknown groups, such that items within the same group share the same feature vector. We consider a sequential and adaptive setting in which, at each round, the learner selects one item and one feature, then observes a noisy evaluation of the item’s feature. The learner’s objective is to recover the correct partition of the items, while keeping the number of observations as small as possible. We provide an algorithm which relies on finding a relevant feature for the clustering task, leveraging the Sequential Halving algorithm. With probability at least 1 − δ, we obtain an accurate recovery of the partition and derive an upper bound on the budget required. Furthermore, we obtain an instance-dependent lower bound, which is tight in some relevant cases.}
 }
+
+@unpublished{thuot:hal-05451062,
+  bibtex_show={true},
+  selected={true},
+  abbr={Hal},
+  title = {{Nonparametric Kernel Clustering with Bandit Feedback}},
+  author = {Thuot, Victor and Vogt, Sebastian and Ghoshdastidar, Debarghya and Verzelen, Nicolas},
+  url = {https://hal.science/hal-05451062},
+  year = {2026},
+  month = Jan,
+  pdf = {https://hal.science/hal-05451062v1/file/main.pdf},
+  HAL_ID = {hal-05451062},
+  HAL_VERSION = {v1},
+  abstract = {Clustering with bandit feedback refers to the problem of partitioning a set of items, where the clustering algorithm can sequentially query the items to receive noisy observations. The problem is formally posed as the task of partitioning the arms of an N-armed stochastic bandit according to their underlying distributions, grouping two arms together if and only if they share the same distribution, using samples collected sequentially and adaptively. This setting has gained attention in recent years due to its applicability in recommendation systems and crowdsourcing. Existing works on clustering with bandit feedback rely on a strong assumption that the underlying distributions are sub-Gaussian. As a consequence, the existing methods mainly cover settings with linearly-separable clusters, which has little practical relevance. We introduce a framework of ``nonparametric clustering with bandit feedback'', where the underlying arm distributions are not constrained to any parametric, and hence, it is applicable for active clustering of real-world datasets. We adopt a kernel-based approach, which allows us to reformulate the nonparametric problem as the task of clustering the arms according to their kernel mean embeddings in a reproducing kernel Hilbert space (RKHS). Building on this formulation, we introduce the KABC algorithm with theoretical correctness guarantees and analyze its sampling budget. We introduce a notion of signal-to-noise ratio for this problem that depends on the maximum mean discrepancy (MMD) between the arm distributions and on their variance in the RKHS. Our algorithm is adaptive to this unknown quantity: it does not require it as an input yet achieves instance-dependent guarantees. 
+}
+
