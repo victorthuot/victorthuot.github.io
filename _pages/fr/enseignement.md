@@ -34,9 +34,9 @@ group: teaching
 
 <p> Université de Montpellier -- 2025-2026 -- 60 heures équivalent TD
 <ul>
-  <li> <strong> Mesure et intégration, Fourier </strong> (premier semestre) : TD sur l’intégration de Lebesgue pour des étudiants de troisième année de licence de mathématiques. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">ici</a>.</li>
+  <li> <strong> Mesure et intégration, Fourier </strong> (premier semestre) : TD -- Intégration de Lebesgue pour L3 Maths. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">ici</a>.</li>
   
-  <li> <strong> Probabilité </strong> (premier semestre): Introduction aux probabilités discrètes/continues pour licence 2. Program disponible <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">ici</a>.</li>
+  <li> <strong> Probabilité </strong> (premier semestre): TD -- Introduction aux probabilités discrètes/continues pour L2 Maths. Program disponible <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">ici</a>.</li>
 </ul>
 
 
