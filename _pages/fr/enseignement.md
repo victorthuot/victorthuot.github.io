@@ -31,6 +31,15 @@ group: teaching
   <li> <strong> Remédiation en mathématiques pour biologistes </strong> (premier semestre) : TD hybride (avec rappels de cours) destiné à accompagner les étudiants de première année de biologie dans la consolidation des bases mathématiques nécessaires à leur formation. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-sciences-de-la-vie-sante-environnement-svse-KNYLZM0G/l1-sciences-de-la-vie-sante-environnement-svse-KNYM0SZU/profil-svse-maths-remedia-M3SG8JAO/profil-serie-1-M3SG8JNA/choix-hav216x-hav213t-M3SG8JWN/remediation-en-mathematiques-s2-KO8EMU9W.html">ici</a>.</li>
 </ul>
 
+
+<p> Université de Montpellier -- 2025-2026 -- 60 heures équivalent TD
+<ul>
+  <li> <strong> Mesure et intégration, Fourier </strong> (premier semestre) : TD sur l’intégration de Lebesgue pour des étudiants de troisième année de licence de mathématiques. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">ici</a>.</li>
+  
+  <li> <strong> Probabilité </strong> (premier semestre): Introduction aux probabilités discrètes/continues pour licence 2. Program disponible <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">ici</a>.</li>
+</ul>
+
+
 <p> <strong> Encadrement dans le cadre du projet <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/"> "Apprentis Chercheurs" </a> : </strong> </p>
 
 <p>Association L’Arbre des Connaissances — 2023-2024 — 30 heures</p>
