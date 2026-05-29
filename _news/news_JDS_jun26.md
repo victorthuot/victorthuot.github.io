@@ -8,4 +8,4 @@ related_publications: true
 category: talk
 title: JDS
 ---
-I attended the Days of Statistics of the french SFDS (<a href="https://jds2026.sciencesconf.org/">JDS</a> ), presenting the problem {% cite graf2025clustering %}  [<a href="https://victorthuot.github.io/assets/pdf/slides_JDS_june2026.pdf">Slides</a>,<a href="https://victorthuot.github.io/assets/pdf/resume_JDS_june2026.pdf">Resume</a>].
+I attended the Days of Statistics of the french SFDS (<a href="https://jds2026.sciencesconf.org/">JDS</a> ), presenting the problem {% cite graf2025clustering %}  [<a href="https://victorthuot.github.io/assets/pdf/slides_jds_june2026.pdf">Slides</a>,<a href="https://victorthuot.github.io/assets/pdf/resume_jds_june2026.pdf">Resume</a>].
