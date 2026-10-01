@@ -2,7 +2,7 @@
 layout: about
 title: À propos
 permalink: /fr/
-subtitle: <h4> Postdoctorant (Assistant recherche) à l'<a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> laboratoire UMPA</a>, de l'<a href='https://www.ens-lyon.fr/'> ENS de Lyon</a> </h4>
+subtitle: <h4> Postdoctorant (Assistant recherche) au <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> laboratoire UMPA</a>, de l'<a href='https://www.ens-lyon.fr/'> ENS de Lyon</a> </h4>
 
 profile:
   align: right
