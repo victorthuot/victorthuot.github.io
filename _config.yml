@@ -6,7 +6,7 @@ title: Victor Thuot # the website title (if blank, full name will be used instea
 first_name: Victor
 middle_name: 
 last_name: Thuot
-email: victor.thuot@inrae.fr
+email: victor.thuot@ens-lyon.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   "PhD student in statistics in INRAE Montpellier"
 footer_text: >
