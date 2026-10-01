@@ -11,7 +11,7 @@ group: teaching
 
 <hr />
 
-<p> Pendant mon doctorat, j’ai eu l’opportunité d’assurer différents enseignements : </p>
+<p> Pendant mon doctorat, j’ai eu l’opportunité d’assurer différents enseignements à l'université de Montpellier: </p>
 
 <p> <strong>MCE (mission complémentaire d'enseignement) à l’<a href="https://maths-fds.edu.umontpellier.fr/">Université de Montpellier</a> : </strong> </p>
 
