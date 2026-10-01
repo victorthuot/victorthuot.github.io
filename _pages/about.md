@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 group: about
 lang: en
 ---
-I am a postdoctoral researcher at <a href='https://www.ens-lyon.fr/'> ENS Lyon</a>, working under the supervision of <a href='https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html'> Aurélien Garivier </a> in the <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> UMPA laboratory</a>. My current research focuses on reinforcement learning.
+Since October 2026, I am a postdoctoral researcher at <a href='https://www.ens-lyon.fr/'> ENS Lyon</a>, working under the supervision of <a href='https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html'> Aurélien Garivier </a> in the <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> UMPA laboratory</a>. My current research focuses on reinforcement learning.
 
 I completed my PhD entitled "Unsupervised Active Learning" at <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, under the supervision of <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam University, Germany), within the <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a> in the Probability and Statistics team.
 
