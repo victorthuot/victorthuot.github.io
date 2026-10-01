@@ -8,4 +8,4 @@ related_publications: true
 category: selected
 title: NeurIPS
 ---
-Our paper <a href="https://hal.science/hal-05551276v1"> The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits </a> {% cite saad:hal-05551276 %}, coauthored with El Mehdi Saad and Nicolas Verzelen, has been accepted at <strong>NeurIPS 2026</strong>. A preprint is available on Hal.
+Our paper <a href="https://hal.science/hal-05551276v1"> The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits </a> {% cite saad:hal-05551276 %}, coauthored with El Mehdi Saad and Nicolas Verzelen, has been accepted at NeurIPS 2026. A preprint is available on Hal.
