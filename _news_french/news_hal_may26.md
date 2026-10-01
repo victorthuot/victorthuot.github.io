@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 2026-08-05 07:59:00-0400
+date: 2026-10-01 07:59:00-0400
 inline: true
 related_posts: false
 selected_news: true
 related_publications: true
 category: selected
-title: Preprint
+title: NeurIPS
 ---
-Une prépublication du projet  <a href="https://arxiv.org/abs/2605.13252"> The Sample Complexity of Multiple Change Point Identification under Bandit Feedback </a> {% cite graf2026samplecomplexitymultiplechange %} avec Maximilian Graf est disponible.
+Notre article <a href="https://arxiv.org/abs/2605.13252"> The Sample Complexity of Multiple Change Point Identification under Bandit Feedback </a> {% cite graf2026samplecomplexitymultiplechange %}, coécrit avec Maximilian Graf, a été accepté à <strong>NeurIPS 2026</strong>. Un preprint est disponible sur arXiv.
