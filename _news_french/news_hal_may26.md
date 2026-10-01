@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 selected_news: true
 related_publications: true
-category: selected
+category: conference
 title: NeurIPS
 ---
 Notre article <a href="https://arxiv.org/abs/2605.13252"> The Sample Complexity of Multiple Change Point Identification under Bandit Feedback </a> {% cite graf2026samplecomplexitymultiplechange %}, coécrit avec Maximilian Graf, a été accepté à NeurIPS 2026. Un preprint est disponible sur arXiv.
