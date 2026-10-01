@@ -2,7 +2,7 @@
 layout: about
 title: À propos
 permalink: /fr/
-subtitle: <h4> Postdoctorant (Assistant recherche) au <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> laboratoire UMPA</a>, de l'<a href='https://www.ens-lyon.fr/'> ENS de Lyon</a> </h4>
+subtitle: <h4> Postdoctorant (Assistant recherche) à l'<a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> laboratoire UMPA</a>, de l'<a href='https://www.ens-lyon.fr/'> ENS de Lyon</a> </h4>
 
 profile:
   align: right
@@ -22,7 +22,7 @@ group: about
 lang: fr
 ---
 
-Je suis en postdoctorat à l'<a href='https://www.ens-lyon.fr/'>ENS Lyon</a>, sous la supervision d'<a href='https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html'>Aurélien Garivier</a> au <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'>laboratoire UMPA</a>. Mes recherches actuelles portent sur l'apprentissage par renforcement.
+Depuis octobre 2026, je suis en postdoctorat à l'<a href='https://www.ens-lyon.fr/'>ENS Lyon</a>, sous la supervision d'<a href='https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html'>Aurélien Garivier</a> au <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'>laboratoire UMPA</a>. Mes recherches actuelles portent sur l'apprentissage par renforcement.
 
 J'ai effectué ma thèse intitulée « Apprentissage actif non supervisé » à l'<a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, sous la direction de <a href='https://verzelen.montpellier.inrae.fr/'>Nicolas Verzelen</a> (INRAE Montpellier, France) et <a href='https://sites.google.com/site/alexandracarpentierresearch/'>Alexandra Carpentier</a> (Université de Potsdam, Allemagne), au sein du <a href='https://mistea.montpellier.hub.inrae.fr/'>laboratoire MISTEA</a>, dans l'équipe Probabilités et Statistiques.
 
