@@ -9,4 +9,4 @@ title: PhD defense
 ---
 I successfully defended my thesis at INRAe Montpellier!
 - [Thesis PDF](https://victorthuot.github.io/assets/pdf/thesis_thuot_victor.pdf)
-- [Presentation PDF](https://victorthuot.github.io/assets/pdf//assets/pdf/présentation_thèse.pdf)
+- [Presentation PDF](https://victorthuot.github.io/assets/pdf/présentation_thèse.pdf)
