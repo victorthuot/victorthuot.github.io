@@ -8,6 +8,7 @@ category: talk
 title: PhD defense
 ---
 I successfully defended my thesis at INRAe Montpellier!
-
 - [CV](/cv/)
-- [GitHub]({{ site.github_username | default: 'victorthuot' | prepend: 'https://github.com/' }})
+- [Thesis PDF](/assets/pdf/thesis_thuot_victor.pdf)
+- [Presentation PDF](/assets/pdf/présentation_thèse.pdf)
+-
