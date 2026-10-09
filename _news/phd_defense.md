@@ -8,6 +8,5 @@ category: talk
 title: PhD defense
 ---
 I successfully defended my thesis at INRAe Montpellier!
-- [CV](/cv/)
-- [Thesis PDF](/assets/pdf/thesis_thuot_victor.pdf)
-- [Presentation PDF](/assets/pdf/présentation_thèse.pdf)
+- [Thesis PDF](https://victorthuot.github.io/assets/pdf/thesis_thuot_victor.pdf)
+- [Presentation PDF](https://victorthuot.github.io/assets/pdf//assets/pdf/présentation_thèse.pdf)
