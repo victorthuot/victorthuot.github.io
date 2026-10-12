@@ -19,21 +19,6 @@
         "<b> supervision </b>: <a href='https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html'> Aurélien Garivier </a>",
         "<b> research </b>: Reinforcement learning"
       ]
-    },
-    {
-      "institute": "INRAE, UMR MISTEA",
-      "position": "PhD student",
-      "location": "Montpellier, France",
-      "url": "https://mistea.montpellier.hub.inrae.fr/personnels/doctorants-post-doctorants",
-      "startDate": "2023-10-01",
-      "endDate": "2026-09-30",
-      "highlights": [
-        "<b> institution </b>: <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier </a>",
-        "<b> laboratory </b>: <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA </a>",
-        "<b> supervision </b>: <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (INRAE Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam University, Germany)",
-        "<b> funding </b>: CDSN from the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a> and ANR grant <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI</a>",
-        "<b> title </b>: <a href='https://theses.fr/s372674'> Unsupervised active learning </a>"
-      ]
     }
   ],
   "interests": [
@@ -60,6 +45,21 @@
     }
   ],
   "education": [
+     {
+      "institute": "INRAE, UMR MISTEA",
+      "position": "PhD student",
+      "location": "Montpellier, France",
+      "url": "https://mistea.montpellier.hub.inrae.fr/personnels/doctorants-post-doctorants",
+      "startDate": "2023-10-01",
+      "endDate": "2026-09-30",
+      "highlights": [
+        "<b> institution </b>: <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier </a>",
+        "<b> laboratory </b>: <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA </a>",
+        "<b> supervision </b>: <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (INRAE Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam University, Germany)",
+        "<b> funding </b>: CDSN from the <a href='https://www.ens-rennes.fr/'> ENS Rennes </a> and ANR grant <a href='https://sites.google.com/view/prci-ascai/accueil'> ASCAI</a>",
+        "<b> title </b>: <a href='https://theses.fr/s372674'> Unsupervised active learning </a>"
+      ]
+    },
     {
       "institution": "ENS Rennes, University of Rennes",
       "location": "Rennes, France",
