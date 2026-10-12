@@ -21,29 +21,6 @@
       ]
     }
   ],
-  "interests": [
-    {
-      "name": "Mathematics",
-      "icon": "fa-solid fa-infinity",
-      "keywords": [
-        "Statistics",
-        "Probability",
-        "Machine Learning",
-        "Bandit Theory",
-        "Active learning",
-        "Reinforcement Learning"
-      ]
-    },
-    {
-      "name": "Computer science",
-      "icon": "fa-solid fa-laptop",
-      "keywords": [
-        "Algorithmic",
-        "Computational complexity",
-        "Machine Learning"
-      ]
-    }
-  ],
   "education": [
      {
       "institute": "INRAE, UMR MISTEA",
@@ -101,6 +78,29 @@
       "startDate": "2017",
       "endDate": "2019",
       "courses": ["Intensive two year preparatory courses for the competitive entrance to top French engineering schools"]
+    }
+  ],
+    "interests": [
+    {
+      "name": "Mathematics",
+      "icon": "fa-solid fa-infinity",
+      "keywords": [
+        "Statistics",
+        "Probability",
+        "Machine Learning",
+        "Bandit Theory",
+        "Active learning",
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "name": "Computer science",
+      "icon": "fa-solid fa-laptop",
+      "keywords": [
+        "Algorithmic",
+        "Computational complexity",
+        "Machine Learning"
+      ]
     }
   ],
   "languages": [
