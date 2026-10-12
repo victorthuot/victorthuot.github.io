@@ -23,13 +23,13 @@
   ],
   "education": [
      {
-      "institute": "INRAE, UMR MISTEA",
-      "position": "PhD student",
+      "institution": "INRAE, UMR MISTEA",
+      "studyType": "PhD",
       "location": "Montpellier, France",
       "url": "https://mistea.montpellier.hub.inrae.fr/personnels/doctorants-post-doctorants",
       "startDate": "2023-10-01",
       "endDate": "2026-09-30",
-      "highlights": [
+      "courses": [
         "<b> institution </b>: <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier </a>",
         "<b> laboratory </b>: <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA </a>",
         "<b> supervision </b>: <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (INRAE Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam University, Germany)",
