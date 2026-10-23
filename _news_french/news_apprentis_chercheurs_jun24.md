@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 selected_news: false
 category: local
-title: Scientific mediation
+title: Médiation scientifique
 ---
 J’ai participé à l’édition 2024 du programme <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">Apprentis Chercheurs</a>.
 Avec David Métivier, nous avons encadré un binôme de collégien et lycéen dans le cadre d’un  [projet d’initiation à la recherche ](https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html) en statistique et modélisation mathématique.
