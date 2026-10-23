@@ -16,7 +16,7 @@
       "highlights": [
         "<b> institution </b>: <a href='https://www.ens-lyon.fr/'> ENS Lyon </a>",
         "<b> laboratory </b>: <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> UMPA </a>",
-        "<b> supervision </b>: <a href='https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html'> Aurélien Garivier </a>",
+        "<b> supervision </b>: <a href='https://perso.ens-lyon.fr/aurelien.garivier/'> Aurélien Garivier </a>",
         "<b> research </b>: Reinforcement learning"
       ]
     }
@@ -46,7 +46,7 @@
       "startDate": "2019",
       "endDate": "2023",
       "courses": ["theoretical and multidisciplinary training in mathematics oriented towards research and teaching",
-                  "preparation for french 'Agrégation' (competition to obtain a teaching position) : received in position 67/365",
+                  "preparation for French 'Agrégation' (competition to obtain a teaching position) : received in position 67/365",
                   "Specialization for the last year in probability and statistics"]
     },
     {
@@ -70,7 +70,7 @@
       "courses": ["theoretical and multidisciplinary training in mathematics oriented towards research and teaching"]
     },
     {
-      "institution": "Lycée Henry Poincaré",
+      "institution": "Henry Poincaré",
       "location": "Nancy, France",
       "url": "https://lycee-poincare.fr/les-classes-preparatoires-scientifiques/#",
       "area": "Mathematics, Physics & IT (MPSI-MP*)",
