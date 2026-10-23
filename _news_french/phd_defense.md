@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 selected_news: true
 category: talk
-title: PhD defense
+title: Soutenance de thèse
 ---
 J'ai soutenu ma thèse à l'INRAE Montpellier !
 - [Manuscrit](https://victorthuot.github.io/assets/pdf/thesis_thuot_victor.pdf)
