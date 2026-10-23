@@ -80,12 +80,12 @@ layout: default
             {% endunless %}
           {% endif %}
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
+          {% assign section_title = data[0] | capitalize %}
+          {% if page.section_titles and page.section_titles[data[0]] %}
+            {% assign section_title = page.section_titles[data[0]] %}
+          {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-                       {% assign section_title = data[0] | capitalize %}
-            {% if page.section_titles[data[0]] %}
-              {% assign section_title = page.section_titles[data[0]] %}
-            {% endif %}
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
               {% case data[0] %}
