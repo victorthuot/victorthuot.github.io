@@ -1,0 +1,12 @@
+ALT:
+  url: https://algorithmiclearningtheory.org/alt2025/
+  color: "#2b6cb0"
+ICML:
+  url: https://icml.cc/Conferences/2025
+  color: "#00369f"
+HAL:
+  url: https://hal.science
+  color: "#666"
+arXiv:
+  url: https://arxiv.org
+  color: "#b31b1b"
