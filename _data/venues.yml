@@ -1,8 +1,8 @@
 ALT:
-  url: https://algorithmiclearningtheory.org/alt2025/
+  url: https://algorithmiclearningtheory.org/
   color: "#2b6cb0"
 ICML:
-  url: https://icml.cc/Conferences/2025
+  url: https://icml.cc/Conferences/
   color: "#00369f"
 HAL:
   url: https://hal.science
@@ -10,3 +10,6 @@ HAL:
 arXiv:
   url: https://arxiv.org
   color: "#b31b1b"
+NeurIPS:
+  url: https://neurips.cc/Conferences/
+  color: "#6a1b9a"
