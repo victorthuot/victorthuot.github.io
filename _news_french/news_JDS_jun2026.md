@@ -8,4 +8,4 @@ related_publications: true
 category: talk
 title: JDS
 ---
-Je serai aux JDS à clermont-ferrand (<a href="https://jds2026.sciencesconf.org/">JDS</a>), pour présenter mon travail avec Maximilian Graf {% cite graf2025clustering %}  [<a href="https://victorthuot.github.io/assets/pdf/slides_jds_june2026.pdf">Diapo</a>,<a href="https://victorthuot.github.io/assets/pdf/resume_jds_june2026.pdf">Résumé</a>].
+J'ai participé aux JDS à Clermont-Ferrand (<a href="https://jds2026.sciencesconf.org/">JDS</a>), pour présenter mon travail avec Maximilian Graf {% cite graf2025clustering %}  [<a href="https://victorthuot.github.io/assets/pdf/slides_jds_june2026.pdf">Diapo</a>],[<a href="https://victorthuot.github.io/assets/pdf/resume_jds_june2026.pdf">Résumé</a>].
