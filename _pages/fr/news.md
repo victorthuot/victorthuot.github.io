@@ -10,10 +10,8 @@ permalink: /fr/news/
 related_publications: true
 ---
 
-{% include news_french.liquid %}
-<!-- Références citées dans les news incluses -->
+<!-- Keys of every paper cited in the news items (keep in sync with _news/*.md) -->
 <div style="display: none;">
-  {% cite graf2025clustering pmlr-v272-thuot25a %}
+  {% cite pmlr-v272-thuot25a graf2025clustering thuot2026kernel saad:hal-05551276 graf2026samplecomplexitymultiplechange %}
 </div>
-
 
