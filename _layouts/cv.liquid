@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
+{% assign resume = site.data.resume %}
+{% if page.resume_data %}
+  {% assign resume = site.data[page.resume_data] %}
+{% endif %}
+{% unless resume %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
@@ -69,7 +73,7 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for data in site.data.resume %}
+        {% for data in resume %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
             {% unless site.jsonresume contains data[0] %}
               {% continue %}
@@ -78,7 +82,11 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+                       {% assign section_title = data[0] | capitalize %}
+            {% if page.section_titles[data[0]] %}
+              {% assign section_title = page.section_titles[data[0]] %}
+            {% endif %}
+            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
               {% case data[0] %}
                 {% when 'contact' %}
