@@ -2,7 +2,7 @@
 layout: about
 title: about me
 permalink: /
-subtitle: <h4> Postdoctoral researcher at <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> UMPA laboratory</a>, <a href='https://www.ens-lyon.fr/'> ENS Lyon</a>, </h4>
+subtitle: <h4> Postdoctoral researcher at <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'> UMPA laboratory</a>, <a href='https://www.ens-lyon.fr/'> ENS Lyon</a></h4>
 
 profile:
   align: right
@@ -25,4 +25,4 @@ Since October 2026, I am a postdoctoral researcher at <a href='https://www.ens-l
 
 Previously, I completed a PhD entitled "Unsupervised Active Learning" at <a href='https://www.inrae.fr/centres/occitanie-montpellier'>INRAE Montpellier</a>, under the supervision of <a href='https://verzelen.montpellier.inrae.fr/'> Nicolas Verzelen </a> (Inrae Montpellier, France) and <a href='https://sites.google.com/site/alexandracarpentierresearch/'> Alexandra Carpentier </a> (Potsdam University, Germany), within the <a href='https://mistea.montpellier.hub.inrae.fr/'> MISTEA laboratory</a> in the Probability and Statistics team.
 
-My PhD work stood at the bridge between active learning and unsupervised learning, by considering active counterparts of classical unsupervised problems — such as clustering, change-point detection, and Condorcet winner identification — through the lens of bandit theory. You can find the subject of my thesis <a href='https://theses.fr/s372674'> here </a>.
+My PhD work stood at the bridge between active learning and unsupervised learning, by considering active counterparts of classical unsupervised problems — such as clustering, change-point detection, and Condorcet winner identification — through the lens of bandit theory. You can find the subject of my thesis <a href='https://theses.fr/s372674'> here</a>.
