@@ -7,6 +7,6 @@ selected_news: true
 category: talk
 title: PhD defense
 ---
-J'ai soutenu ma thèse à l'INRAe Montpellier!
+J'ai soutenu ma thèse à l'INRAE Montpellier !
 - [Manuscrit](https://victorthuot.github.io/assets/pdf/thesis_thuot_victor.pdf)
 - [Presentation](https://victorthuot.github.io/assets/pdf/présentation_thèse.pdf)
