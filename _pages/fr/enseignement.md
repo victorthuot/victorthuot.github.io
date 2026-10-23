@@ -11,7 +11,7 @@ group: teaching
 
 <hr />
 
-<p> Pendant mon doctorat, j’ai eu l’opportunité d’assurer différents enseignements à l'université de Montpellier: </p>
+<p> Pendant mon doctorat, j’ai eu l’opportunité d’assurer différents enseignements: </p>
 
 <p> <strong>MCE (mission complémentaire d'enseignement) à l’<a href="https://maths-fds.edu.umontpellier.fr/">Université de Montpellier</a> : </strong> </p>
 
@@ -32,11 +32,11 @@ group: teaching
 </ul>
 
 
-<p> Université de Montpellier -- 2025-2026 -- 60 heures équivalent TD
+<p> Université de Montpellier —  2025-2026 —  60 heures équivalent TD
 <ul>
   <li> <strong> Mesure et intégration, Fourier </strong> (premier semestre) : TD -- Intégration de Lebesgue pour L3 Maths. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">ici</a>.</li>
   
-  <li> <strong> Probabilité </strong> (premier semestre): TD -- Introduction aux probabilités discrètes/continues pour L2 Maths. Program disponible <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">ici</a>.</li>
+  <li> <strong> Probabilité </strong> (premier semestre): TD -- Introduction aux probabilités discrètes/continues pour L2 Maths. Programme disponible <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">ici</a>.</li>
 </ul>
 
 
@@ -46,4 +46,4 @@ group: teaching
 
 <p>En collaboration avec <a href="https://davidmetivier.mistea.inrae.fr/">David Métivier</a>, j’ai encadré un projet dans le cadre du dispositif "Apprentis Chercheurs" (<a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">voir détails</a>). Marius Bertrand (3ᵉ) et Mattis Dodson (1ʳᵉ) ont exploré avec nous des notions liées au hasard, à la simulation numérique et aux algorithmes de bandits. Le projet est consultable sur cette <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">page interactive</a> conçue par David.</p>
 
-<p>Merci aux enseignants et aux élèves pour avoir fait de ces enseignements un moment aussi enrichissant.</p>
+<p>Merci aux enseignants et aux élèves d'avoir fait de ces enseignements un moment aussi enrichissant.</p>
