@@ -8,4 +8,4 @@ related_publications: true
 category: selected
 title: Preprint
 ---
-Vous pouvez trouver un preprint du papier   <a href="https://hal.science/hal-05451062v1/file/main.pdf"> Nonparametric Kernel Clustering with Bandit Feedback </a> {% cite thuot2026kernel %} fruit d'un travail en cours avec Sebastian Vogt, Debarghya Ghoshdastidar, and Nicolas Verzelen.
+Vous pouvez trouver un preprint du papier  <a href="https://hal.science/hal-05451062v1/file/main.pdf"> Nonparametric Kernel Clustering with Bandit Feedback </a> {% cite thuot2026kernel %} fruit d'un travail en cours avec Sebastian Vogt, Debarghya Ghoshdastidar, et Nicolas Verzelen.
