@@ -1,7 +1,27 @@
 .publications ol.bibliography li {
   margin-bottom: 0.9rem;
 
-  .title { font-weight: 600; margin-bottom: 0.1rem; }
+   .title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 0.1rem;
+  }
+  .abbr {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .abbr .badge {
+    display: inline-block;
+    width: fit-content;        /* badge = largeur du texte */
+    min-width: 0;
+    max-width: 100%;
+    padding: 0.2em 0.4em;      /* marge constante autour du texte */
+    font-size: 0.6rem;
+    box-shadow: none;
+    white-space: nowrap;
+  }
   .author { font-size: 0.92rem; }
 
   .periodical {
