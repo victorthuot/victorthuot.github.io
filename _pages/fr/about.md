@@ -17,7 +17,7 @@ profile:
 
 news: true
 selected_papers: true
-social: true
+social: false
 group: about
 lang: fr
 ---
