@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 selected_news: false
 category: talk
-title: Amazon StatML
+title: Amazon
 ---
 Dans le cadre d'une visite à Potsdam pour travailler avec Alexandra Carpentier, j’ai assisté à une série de présentations lors de l'<a href="https://www.amazon.science/latest-news/amazon-to-host-statml-oxford-imperial-ml-workshop-in-berlin-office">Amazon StatML Workshop</a> 2024 à Berlin.
