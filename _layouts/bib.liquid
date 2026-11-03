@@ -164,8 +164,29 @@
       {% if entry.bibtex_show %}
         <a class="bibtex" role="button"><i class="fa-solid fa-quote-right"></i> bibtex</a>
       {% endif %}
-      {% if entry.url %}
-        <a href="{% if entry.url contains '://' %}{{ entry.url }}{% else %}{{ entry.url | relative_url }}{% endif %}"><i class="fa-regular fa-file-lines"></i> paper</a>
+            {% if entry.url %}
+        {% assign show_url = true %}
+
+        {%- comment -%} Skip if the same link is already shown by another button {%- endcomment -%}
+        {% if entry.arxiv and entry.url contains entry.arxiv %}{% assign show_url = false %}{% endif %}
+        {% if entry.html and entry.url == entry.html %}{% assign show_url = false %}{% endif %}
+        {% if entry.website and entry.url == entry.website %}{% assign show_url = false %}{% endif %}
+        {% if entry.code and entry.url == entry.code %}{% assign show_url = false %}{% endif %}
+
+        {% if show_url %}
+          {% if entry.url contains 'openreview.net' %}
+            {% assign url_label = 'OpenReview' %}{% assign url_icon = 'fa-regular fa-comments' %}
+          {% elsif entry.url contains 'doi.org' %}
+            {% assign url_label = 'doi' %}{% assign url_icon = 'ai ai-doi' %}
+          {% elsif entry.url contains 'hal.' %}
+            {% assign url_label = 'hal' %}{% assign url_icon = 'ai ai-hal' %}
+          {% elsif entry.url contains 'arxiv.org' %}
+            {% assign url_label = 'arXiv' %}{% assign url_icon = 'ai ai-arxiv' %}
+          {% else %}
+            {% assign url_label = 'link' %}{% assign url_icon = 'fa-solid fa-arrow-up-right-from-square' %}
+          {% endif %}
+          <a href="{% if entry.url contains '://' %}{{ entry.url }}{% else %}{{ entry.url | relative_url }}{% endif %}"><i class="{{ url_icon }}"></i> {{ url_label }}</a>
+        {% endif %}
       {% endif %}
       {% if entry.arxiv %}
         <a href="https://arxiv.org/abs/{{ entry.arxiv }}"><i class="ai ai-arxiv"></i> arXiv</a>
