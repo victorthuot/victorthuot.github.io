@@ -42,7 +42,7 @@
     <table class="table table-sm table-borderless">
       {% for item in final_news %}
         <tr>
-            <th scope="row" style="width: 25%; word-break: break-word;">
+               <th scope="row" style="width: 1%; white-space: nowrap; padding-right: 1.5rem;">
               <div><strong>{{ item.date | date: '%b %d, %Y' }}</strong></div>
               {% if item.title%}
                  <div style="font-weight: normal; font-size: 0.9em; margin-top: 0.2em;"><strong>{{ item.title }}</strong></div>
