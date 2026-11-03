@@ -3,7 +3,22 @@
 
   .title { font-weight: 600; margin-bottom: 0.1rem; }
   .author { font-size: 0.92rem; }
-  .periodical { font-size: 0.88rem; color: var(--global-text-color-light); }
+
+  .periodical {
+    font-size: 0.88rem;
+    color: var(--global-text-color-light);
+
+    .note::before {
+      content: "";
+      display: inline-block;
+      width: 1px;
+      height: 0.75em;
+      background: currentColor;
+      opacity: 0.35;
+      margin: 0 0.5rem;
+      vertical-align: -0.05em;
+    }
+  }
 
   .links {
     margin-top: 0.2rem;
