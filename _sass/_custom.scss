@@ -1,0 +1,25 @@
+.publications ol.bibliography li {
+  margin-bottom: 0.9rem;
+
+  .title { font-weight: 600; margin-bottom: 0.1rem; }
+  .author { font-size: 0.92rem; }
+  .periodical { font-size: 0.88rem; color: var(--global-text-color-light); }
+
+  .links {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.15rem 0.9rem;
+
+    a {
+      color: var(--global-text-color-light);
+      cursor: pointer;
+      text-decoration: none;
+      transition: color 0.15s;
+
+      i { margin-right: 0.2rem; color: var(--global-theme-color); }
+      &:hover { color: var(--global-theme-color); }
+    }
+  }
+}
