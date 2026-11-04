@@ -44,6 +44,6 @@ group: teaching
 
 <p>Association L’Arbre des Connaissances — 2023-2024 — 30 heures</p>
 
-<p>En collaboration avec <a href="https://davidmetivier.mistea.inrae.fr/">David Métivier</a>, j’ai encadré un projet dans le cadre du dispositif "Apprentis Chercheurs" (<a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">voir détails</a>). Marius Bertrand (3ᵉ) et Mattis Dodson (1ʳᵉ) ont exploré avec nous des notions liées au hasard, à la simulation numérique et aux algorithmes de bandits. Le projet est consultable sur cette <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">page interactive</a> conçue par David.</p>
+<p>En collaboration avec <a href="https://davidmetivier.mistea.inrae.fr/">David Métivier</a>, j’ai encadré un projet dans le cadre du dispositif "Apprentis Chercheurs" (<a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">voir détails</a>). Marius (3ᵉ) et Mattis (1ʳᵉ) ont exploré avec nous des notions liées au hasard, à la simulation numérique et aux algorithmes de bandits. Le projet est consultable sur cette <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">page interactive</a> conçue par David.</p>
 
 <p>Merci aux enseignants et aux élèves d'avoir fait de ces enseignements un moment aussi enrichissant.</p>
