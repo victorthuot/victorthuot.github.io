@@ -1,38 +1,18 @@
 <div class="news">
+  {% assign categories = 'conference,talk,local' | split: ',' %}
+  {% if page.lang == 'fr' %}
+    {% assign section_titles = 'conférences avec actes,exposés,vie locale' | split: ',' %}
+  {% else %}
+    {% assign section_titles = 'conferences with proceedings,talks,local activities' | split: ',' %}
+  {% endif %}
 
-  {% assign categories = "conference,talk,local" | split: "," %}
-  {% assign section_titles = "Conferences with proceedings,Talks,Local activities" | split: "," %}
+  {% assign all_news = site.data.news | sort: 'date' | reverse %}
 
-  {% for cat_index in (0..2) %}
-    {% assign current_category = categories[cat_index] %}
-    {% assign current_title = section_titles[cat_index] %}
-
-    {% assign filtered_news = site.news | where: "category", current_category | sort: "date" | reverse %}
-
+  {% for current_category in categories %}
+    {% assign filtered_news = all_news | where: 'category', current_category %}
     {% if filtered_news != empty %}
-      <h2>{{ current_title }}</h2>
-      <div class="table-responsive">
-        <table class="table table-sm table-borderless">
-          {% for item in filtered_news %}
-            <tr>
-              <th scope="row" style="width: 1%; white-space: nowrap; padding-right: 1.5rem;">
-                <div><strong>{{ item.date | date: '%b %d, %Y' }}</strong></div>
-                {% if item.title%}
-                  <div style="font-weight: normal; font-size: 0.9em; margin-top: 0.2em;"><strong>{{ item.title }}</strong></div>
-                {% endif %}
-            </th>
-                           <td>
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-              </td>
-            </tr>
-          {% endfor %}
-        </table>
-      </div>
+      <h2>{{ section_titles[forloop.index0] }}</h2>
+      {% include news_rows.liquid items=filtered_news %}
     {% endif %}
   {% endfor %}
 </div>
-
