@@ -2,7 +2,8 @@
 # Add a new item at the top; order in this file does not matter (sorted by date).
 #
 #   date:     YYYY-MM-DD
-#   tag:      short label shown under the date
+#   tag:      short label shown under the date (keep it shorter than the date)
+#   tag_fr:   optional French label, if different from tag
 #   category: conference | talk | local
 #   selected: true  -> also shown on the home page
 #   en / fr:  one or two sentences, in Markdown
@@ -59,7 +60,8 @@
 # --- Talks -------------------------------------------------------------------
 
 - date: 2026-09-14
-  tag: PhD defense
+  tag: Defense
+  tag_fr: Thèse
   category: talk
   selected: true
   en: "I defended my PhD at INRAE Montpellier!"
@@ -88,7 +90,7 @@
   fr: "Participation aux [Rencontres de statistique mathématique](https://conferences.cirm-math.fr/archives-rencontres-de-statistiques.html) au CIRM, Marseille, sur les nouveaux défis de la statistique en grande dimension."
 
 - date: 2025-09-05
-  tag: StatMathAppli
+  tag: SMA
   category: talk
   en: "Talk at [StatMathAppli 2025](https://statmathappli.mathnum.inrae.fr/fr/) (Fréjus) on [bandit clustering with feature selection](/publications/#graf2025clustering)."
   fr: "Exposé à [StatMathAppli 2025](https://statmathappli.mathnum.inrae.fr/fr/) (Fréjus) sur le [*bandit clustering* avec sélection d'attributs](/publications/#graf2025clustering)."
@@ -131,12 +133,13 @@
 
 - date: 2023-11-24
   tag: Workshop
+  tag_fr: Atelier
   category: talk
   en: "Attended the [Workshop on Bandits and Statistical Tests](https://www.cvernade.com/workshops/workshop-tests-and-bandits-in-potsdam-2023) in Potsdam."
   fr: "Participation au [Workshop on Bandits and Statistical Tests](https://www.cvernade.com/workshops/workshop-tests-and-bandits-in-potsdam-2023) à Potsdam."
 
 - date: 2023-09-18
-  tag: StatMathAppli
+  tag: SMA
   category: talk
   en: "Attended [StatMathAppli 2023](https://statmathappli.mathnum.inrae.fr/fr/past) (Fréjus), with lectures by Gareth O. Roberts and Marco Cuturi."
   fr: "Participation à [StatMathAppli 2023](https://statmathappli.mathnum.inrae.fr/fr/past) (Fréjus), avec les cours de Gareth O. Roberts et Marco Cuturi."
@@ -145,6 +148,7 @@
 
 - date: 2025-06-10
   tag: PhD days
+  tag_fr: Journées
   category: local
   en: "Co-organized, with Nicolás, the first PhD Days of the MISTEA lab."
   fr: "Co-organisation, avec Nicolás, des premières journées des doctorants du laboratoire MISTEA."
@@ -171,6 +175,7 @@
 
 - date: 2024-06-04
   tag: Outreach
+  tag_fr: Médiation
   category: local
   en: "Mentored two students with David Métivier in the [Apprentis Chercheurs](https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/) program."
   fr: "Encadrement de deux élèves avec David Métivier dans le programme [Apprentis Chercheurs](https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/)."
@@ -180,6 +185,7 @@
 
 - date: 2024-05-02
   tag: Seminar
+  tag_fr: Séminaire
   category: local
   en: "Talk on [bandit clustering](/publications/#pmlr-v272-thuot25a) at the ML-MTP seminar (Inria Montpellier)."
   fr: "Exposé sur le [*bandit clustering*](/publications/#pmlr-v272-thuot25a) au séminaire ML-MTP (Inria Montpellier)."
