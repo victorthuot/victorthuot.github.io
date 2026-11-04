@@ -1,0 +1,182 @@
+# All news items, in English and French.
+# Add a new item at the top; order in this file does not matter (sorted by date).
+#
+#   date:     YYYY-MM-DD
+#   tag:      short label shown under the date
+#   category: conference | talk | local
+#   selected: true  -> also shown on the home page
+#   en / fr:  one or two sentences, in Markdown
+#   links:    optional list of documents, shown as icons below the text
+#             type: slides | poster | video | abstract | manuscript | pdf | page | image
+#             url:  full URL, or a path such as /assets/pdf/file.pdf
+
+# --- Conferences with proceedings -------------------------------------------
+
+- date: 2026-10-01
+  tag: NeurIPS
+  category: conference
+  selected: true
+  en: "[The Sample Complexity of Multiple Change Point Identification under Bandit Feedback](https://arxiv.org/abs/2605.13252), with Maximilian Graf, accepted at NeurIPS 2026."
+  fr: "[The Sample Complexity of Multiple Change Point Identification under Bandit Feedback](https://arxiv.org/abs/2605.13252), avec Maximilian Graf, accepté à NeurIPS 2026."
+
+- date: 2026-10-01
+  tag: NeurIPS
+  category: conference
+  selected: true
+  en: "[The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits](https://hal.science/hal-05551276), with El Mehdi Saad and Nicolas Verzelen, accepted at NeurIPS 2026."
+  fr: "[The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits](https://hal.science/hal-05551276), avec El Mehdi Saad et Nicolas Verzelen, accepté à NeurIPS 2026."
+
+- date: 2025-07-15
+  tag: ICML
+  category: conference
+  selected: true
+  en: "[Clustering Items through Bandit Feedback](https://openreview.net/forum?id=99zsyZpUqp), with Maximilian Graf and Nicolas Verzelen, accepted at ICML 2025 (Vancouver), where Maximilian presented the poster."
+  fr: "[Clustering Items through Bandit Feedback](https://openreview.net/forum?id=99zsyZpUqp), avec Maximilian Graf et Nicolas Verzelen, accepté à ICML 2025 (Vancouver), où Maximilian a présenté le poster."
+  links:
+    - type: poster
+      url: https://icml.cc/media/PosterPDFs/ICML%202025/46248.png
+
+- date: 2025-02-24
+  tag: ALT
+  category: conference
+  selected: true
+  en: "My first paper, [Clustering with Bandit Feedback](https://proceedings.mlr.press/v272/thuot25a.html), with Alexandra Carpentier, Christophe Giraud and Nicolas Verzelen, accepted at ALT 2025 (Milan), with a talk and a poster."
+  fr: "Mon premier article, [Clustering with Bandit Feedback](https://proceedings.mlr.press/v272/thuot25a.html), avec Alexandra Carpentier, Christophe Giraud et Nicolas Verzelen, accepté à ALT 2025 (Milan), avec un exposé et un poster."
+  links:
+    - type: slides
+      url: /assets/pdf/slide_ALT_feb2025.pdf
+    - type: video
+      url: https://www.youtube.com/watch?v=RmEcxjNeCPA
+    - type: poster
+      url: /assets/pdf/poster_ALT_feb2025.pdf
+
+# --- Talks -------------------------------------------------------------------
+
+- date: 2026-09-14
+  tag: PhD defense
+  category: talk
+  selected: true
+  en: "I defended my PhD at INRAE Montpellier!"
+  fr: "J'ai soutenu ma thèse à l'INRAE Montpellier !"
+  links:
+    - type: manuscript
+      url: /assets/pdf/thesis_thuot_victor.pdf
+    - type: slides
+      url: /assets/pdf/pr%C3%A9sentation_th%C3%A8se.pdf
+
+- date: 2026-06-03
+  tag: JDS
+  category: talk
+  en: "Talk at the [Journées de Statistique 2026](https://jds2026.sciencesconf.org/) (SFDS) on [clustering items through bandit feedback](/publications/#graf2025clustering)."
+  fr: "Exposé aux [Journées de Statistique 2026](https://jds2026.sciencesconf.org/) (SFDS) sur le [clustering d'items par retour bandit](/publications/#graf2025clustering)."
+  links:
+    - type: slides
+      url: /assets/pdf/slides_jds_june2026.pdf
+    - type: abstract
+      url: /assets/pdf/resume_jds_june2026.pdf
+
+- date: 2025-12-15
+  tag: CIRM
+  category: talk
+  en: "Attended the [Meeting in Mathematical Statistics](https://conferences.cirm-math.fr/archives-rencontres-de-statistiques.html) at CIRM, Marseille, on new challenges in high-dimensional statistics."
+  fr: "Participation aux [Rencontres de statistique mathématique](https://conferences.cirm-math.fr/archives-rencontres-de-statistiques.html) au CIRM, Marseille, sur les nouveaux défis de la statistique en grande dimension."
+
+- date: 2025-09-05
+  tag: StatMathAppli
+  category: talk
+  en: "Talk at [StatMathAppli 2025](https://statmathappli.mathnum.inrae.fr/fr/) (Fréjus) on [clustering items through bandit feedback](/publications/#graf2025clustering)."
+  fr: "Exposé à [StatMathAppli 2025](https://statmathappli.mathnum.inrae.fr/fr/) (Fréjus) sur le [clustering d'items par retour bandit](/publications/#graf2025clustering)."
+  links:
+    - type: slides
+      url: /assets/pdf/slides_SMA_sept2025.pdf
+
+- date: 2025-06-18
+  tag: ASCAI
+  category: talk
+  en: "Talk at the [4th ASCAI workshop](https://www.imo.universite-paris-saclay.fr/fr/conf/ascai-meeting/) (Orsay) on [clustering items through bandit feedback](/publications/#graf2025clustering)."
+  fr: "Exposé au [4e workshop ASCAI](https://www.imo.universite-paris-saclay.fr/fr/conf/ascai-meeting/) (Orsay) sur le [clustering d'items par retour bandit](/publications/#graf2025clustering)."
+  links:
+    - type: slides
+      url: /assets/pdf/slides_ASCAI_june2025.pdf
+
+- date: 2025-03-11
+  tag: GPSD
+  category: talk
+  en: "Talk at the [German Probability and Statistics Days](https://www.gpsd-2025.de/) (Dresden), followed by a two-month visit to Alexandra Carpentier at the University of Potsdam."
+  fr: "Exposé aux [German Probability and Statistics Days](https://www.gpsd-2025.de/) (Dresde), suivi d'un séjour de deux mois auprès d'Alexandra Carpentier à l'Université de Potsdam."
+  links:
+    - type: slides
+      url: /assets/pdf/slides_GPSD_march2025.pdf
+
+- date: 2024-04-15
+  tag: Amazon
+  category: talk
+  en: "Attended the [Amazon StatML Workshop](https://www.amazon.science/latest-news/amazon-to-host-statml-oxford-imperial-ml-workshop-in-berlin-office) in Berlin."
+  fr: "Participation à l'[Amazon StatML Workshop](https://www.amazon.science/latest-news/amazon-to-host-statml-oxford-imperial-ml-workshop-in-berlin-office) à Berlin."
+
+- date: 2024-02-20
+  tag: ASCAI
+  category: talk
+  en: "First talk on [clustering with bandit feedback](/publications/#pmlr-v272-thuot25a) at the [3rd ASCAI workshop](https://sites.google.com/view/prci-ascai/accueil) (Potsdam)."
+  fr: "Premier exposé sur le [clustering avec retour bandit](/publications/#pmlr-v272-thuot25a) au [3e workshop ASCAI](https://sites.google.com/view/prci-ascai/accueil) (Potsdam)."
+  links:
+    - type: slides
+      url: /assets/pdf/slides_ASCAI_fev2024.pdf
+
+- date: 2023-11-24
+  tag: Workshop
+  category: talk
+  en: "Attended the [Workshop on Bandits and Statistical Tests](https://www.cvernade.com/workshops/workshop-tests-and-bandits-in-potsdam-2023) in Potsdam."
+  fr: "Participation au [Workshop on Bandits and Statistical Tests](https://www.cvernade.com/workshops/workshop-tests-and-bandits-in-potsdam-2023) à Potsdam."
+
+- date: 2023-09-18
+  tag: StatMathAppli
+  category: talk
+  en: "Attended [StatMathAppli 2023](https://statmathappli.mathnum.inrae.fr/fr/past) (Fréjus), with lectures by Gareth O. Roberts and Marco Cuturi."
+  fr: "Participation à [StatMathAppli 2023](https://statmathappli.mathnum.inrae.fr/fr/past) (Fréjus), avec les cours de Gareth O. Roberts et Marco Cuturi."
+
+# --- Local activities --------------------------------------------------------
+
+- date: 2025-06-10
+  tag: PhD days
+  category: local
+  en: "Co-organized, with Nicolás, the first PhD Days of the MISTEA lab."
+  fr: "Co-organisation, avec Nicolás, des premières journées des doctorants du laboratoire MISTEA."
+
+- date: 2025-06-03
+  tag: MIPS
+  category: local
+  en: "Short talk on [clustering items through bandit feedback](/publications/#graf2025clustering) at the MIPS week (Université de Montpellier)."
+  fr: "Court exposé sur le [clustering d'items par retour bandit](/publications/#graf2025clustering) lors de la semaine MIPS (Université de Montpellier)."
+  links:
+    - type: slides
+      url: /assets/pdf/slides_MIPS_june2025.pdf
+
+- date: 2024-12-04
+  tag: SemDoc
+  category: local
+  en: "One-hour tutorial on bandits at the IMAG PhD seminar, then at MISTEA."
+  fr: "Tutoriel d'une heure sur les bandits au séminaire des doctorants de l'IMAG, puis au MISTEA."
+  links:
+    - type: abstract
+      url: https://imag.umontpellier.fr/sem/seance/descriptif/5505_S%C3%A9minaire%20des%20Doctorant%C2%B7e%C2%B7s/
+    - type: slides
+      url: /assets/pdf/slides_semdoc_dec2024.pdf
+
+- date: 2024-06-04
+  tag: Outreach
+  category: local
+  en: "Mentored two students with David Métivier in the [Apprentis Chercheurs](https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/) program."
+  fr: "Encadrement de deux élèves avec David Métivier dans le programme [Apprentis Chercheurs](https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/)."
+  links:
+    - type: page
+      url: https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html
+
+- date: 2024-05-02
+  tag: Seminar
+  category: local
+  en: "Talk on [clustering with bandit feedback](/publications/#pmlr-v272-thuot25a) at the ML-MTP seminar (Inria Montpellier)."
+  fr: "Exposé sur le [clustering avec retour bandit](/publications/#pmlr-v272-thuot25a) au séminaire ML-MTP (Inria Montpellier)."
+  links:
+    - type: slides
+      url: /assets/pdf/slides_ML-MTP_may2024.pdf
