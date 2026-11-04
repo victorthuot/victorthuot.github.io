@@ -12,11 +12,16 @@
   <table class="table table-sm table-borderless">
     {% for item in include.items %}
       {% assign item_text = item[page.lang] | default: item.en %}
+      {% if page.lang == 'fr' and item.tag_fr %}
+        {% assign item_tag = item.tag_fr %}
+      {% else %}
+        {% assign item_tag = item.tag %}
+      {% endif %}
       <tr>
         <th scope="row" style="width: 1%; white-space: nowrap; padding-right: 1.5rem;">
           <div><strong>{{ item.date | date: date_format }}</strong></div>
-          {% if item.tag %}
-            <div style="font-weight: normal; font-size: 0.9em; margin-top: 0.2em;"><strong>{{ item.tag }}</strong></div>
+          {% if item_tag %}
+            <div style="font-weight: normal; font-size: 0.9em; margin-top: 0.2em;"><strong>{{ item_tag }}</strong></div>
           {% endif %}
         </th>
         <td>
