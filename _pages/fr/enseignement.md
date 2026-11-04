@@ -11,8 +11,7 @@ group: teaching
 
 <p class="teaching-intro">
   Chargé de TD à l'<a href="https://maths-fds.edu.umontpellier.fr/">Université de Montpellier</a>
-  pendant mon doctorat (2023–2026), dans le cadre d'une mission complémentaire d'enseignement,
-  pour un total de <strong>186 heures équivalent TD</strong>.
+  pendant mon doctorat, avec <strong>trois missions complémentaires d'enseignement complètes</strong> (2023–2026).
 </p>
 
 <div class="teaching-year">
