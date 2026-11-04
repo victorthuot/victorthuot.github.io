@@ -22,11 +22,9 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.25 }}px, (min-width: 576px) 25vw, 55vw{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
@@ -40,23 +38,20 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- Talks / News -->
-{% if page.news and site.announcements.enabled %}
-  <h2>
-    {% assign news_url = '/news/' %}
-    {% if page.lang == 'fr' %}
-      {% assign news_url = '/fr/news/' %}
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      {% if page.lang == 'fr' %}
+        {% assign news_url = '/fr/news/' %}
+      {% else %}
+        {% assign news_url = '/news/' %}
+      {% endif %}
+      <h2>
+        <a href="{{ news_url | relative_url }}" style="color: inherit">
+          {% if page.lang == 'fr' %}Actualités{% else %}News{% endif %}
+        </a>
+      </h2>
+      {% include selected_news.liquid %}
     {% endif %}
-    <a href="{{ news_url | relative_url }}" style="color: inherit">
-      {% if page.lang == 'fr' %}Actualités{% else %}Selected news{% endif %}
-    </a>
-  </h2>
-  {% if page.lang == "fr" %}
-    {% include selected_news_french.liquid %}
-  {% else %}
-    {% include selected_news.liquid %}
-  {% endif %}
-{% endif %}
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
@@ -68,8 +63,13 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      {% if page.lang == 'fr' %}
+        {% assign publications_url = '/fr/publications/' %}
+      {% else %}
+        {% assign publications_url = '/publications/' %}
+      {% endif %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"> Publications</a>
+        <a href="{{ publications_url | relative_url }}" style="color: inherit">Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
