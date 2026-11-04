@@ -1,6 +1,6 @@
 ---
 layout: page
-title: actualités
+title: Actualités
 permalink: /fr/news/
 nav: true
 nav_order: 3
