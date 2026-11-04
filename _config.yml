@@ -127,16 +127,6 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  news_french:
-    defaults:
-      layout: post
-    output: true
-    permalink: /fr/news/:path/
 
 announcements:
   enabled: true
