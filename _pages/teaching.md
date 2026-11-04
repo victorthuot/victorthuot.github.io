@@ -67,7 +67,7 @@ group: teaching
   </li>
 </ul>
 
-<h2 class="teaching-section">outreach</h2>
+<h2 class="teaching-section">Outreach</h2>
 
 <div class="teaching-year">
   <h3>
