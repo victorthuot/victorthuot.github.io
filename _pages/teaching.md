@@ -76,7 +76,7 @@ group: teaching
 </div>
 <p>
   With <a href="https://davidmetivier.mistea.inrae.fr/">David Métivier</a>, I mentored two high-school students,
-  Marius Bertrand and Mattis Dodson, who explored randomness, numerical simulation and bandit algorithms.
+  Marius and Mattis, who explored randomness, numerical simulation and bandit algorithms.
   Their work is presented on an <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">interactive page</a>
   built by David. The program is run by the association <em>L'arbre des connaissances</em>.
 </p>
