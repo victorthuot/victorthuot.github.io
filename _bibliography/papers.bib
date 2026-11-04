@@ -20,6 +20,22 @@
   abstract    = {We investigate the Clustering with Bandit feedback Problem (CBP). A learner interacts with an N-armed stochastic bandit with d-dimensional subGaussian feedback. There exists a hidden partition of the arms into K groups, such that arms within the same group share the same mean vector. The learner's task is to uncover this hidden partition with the smallest budget - i.e. the least number of observations - and with a probability of error smaller than a prescribed constant δ. In this paper, (i) we derive a non asymptotic lower bound for the budget, and (ii) we introduce the computationally efficient ACB algorithm, whose budget matches the lower bound in most regimes. We improve on the performance of a uniform sampling strategy. Importantly, contrary to the batch setting, we establish that there is no computation-information gap in the bandit setting.}
 }
 
+@phdthesis{thuot2026thesis,
+  title       = {Unsupervised Active Learning},
+  author      = {Thuot, Victor},
+  school      = {Université de Montpellier},
+  year        = {2026},
+  month       = sep,
+  note        = {PhD thesis},
+  abbr        = {PhD},
+  url         = {https://theses.fr/s372674},
+  pdf         = {thesis_thuot_victor.pdf},
+  slides      = {présentation_thèse.pdf},
+  bibtex_show = {true},
+  abstract    = {This thesis studies unsupervised learning problems in an active setting. In this framework, a learner sequentially and adaptively collects observations to explore a bandit environment. We examine several pure-exploration problems in which the objective is to recover a hidden structure in the environment with a prescribed confidence level. The common thread is the quantification of the sampling budget required to reconstruct the hidden structure. We analyze five problems: parametric active clustering, non-parametric clustering, clustering with adaptive feature selection, Condorcet winner identification in dueling bandits, and multiple change-point localization. For each, we propose efficient algorithms with guarantees in expectation and in quantiles for the sampling budget, as well as lower bounds on that same budget. The focus is on high-dimensional and/or large-scale regimes. Our results highlight phenomena that are invisible in asymptotic analyses: a fundamental exploration-certification trade-off, structural gaps between expectation and quantile bounds, and significant gains due to adaptivity, both in sampling budget and computational complexity.},
+}
+
+
 @inproceedings{graf2025clustering,
   bibtex_show = {true},
   selected    = {true},
