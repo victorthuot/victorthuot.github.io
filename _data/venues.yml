@@ -6,7 +6,7 @@ ICML:
   color: "#00369f"
 HAL:
   url: https://hal.science
-  color: "#666"
+  color: "#5c6b7a"
 arXiv:
   url: https://arxiv.org
   color: "#b31b1b"
