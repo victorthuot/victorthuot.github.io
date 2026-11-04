@@ -7,6 +7,4 @@ selected_news: true
 category: talk
 title: Thèse
 ---
-J'ai soutenu ma thèse à l'INRAE Montpellier !
-- [Manuscrit](https://victorthuot.github.io/assets/pdf/thesis_thuot_victor.pdf)
-- [Presentation](https://victorthuot.github.io/assets/pdf/présentation_thèse.pdf)
+J'ai soutenu ma thèse à l'INRAE Montpellier ! [[Manuscrit](https://victorthuot.github.io/assets/pdf/thesis_thuot_victor.pdf)][[Presentation](https://victorthuot.github.io/assets/pdf/présentation_thèse.pdf)]
