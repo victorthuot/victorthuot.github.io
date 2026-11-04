@@ -68,7 +68,7 @@ group: teaching
   </li>
 </ul>
 
-<h2 class="teaching-section">médiation scientifique</h2>
+<h2 class="teaching-section">Médiation scientifique</h2>
 
 <div class="teaching-year">
   <h3>
