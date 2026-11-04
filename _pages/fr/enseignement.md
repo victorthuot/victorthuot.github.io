@@ -1,49 +1,83 @@
 ---
 layout: page
 permalink: /fr/enseignement/
-title: Enseignement
-description: 
+title: enseignement
+description:
 nav: true
 nav_order: 6
 lang: fr
 group: teaching
 ---
 
-<hr />
+<p class="teaching-intro">
+  Chargé de TD à l'<a href="https://maths-fds.edu.umontpellier.fr/">Université de Montpellier</a>
+  pendant mon doctorat (2023–2026), dans le cadre d'une mission complémentaire d'enseignement,
+  pour un total de <strong>186 heures équivalent TD</strong>.
+</p>
 
-<p> Pendant mon doctorat, j’ai eu l’opportunité d’assurer différents enseignements: </p>
-
-<p> <strong>MCE (mission complémentaire d'enseignement) à l’<a href="https://maths-fds.edu.umontpellier.fr/">Université de Montpellier</a> : </strong> </p>
-
-<p>Université de Montpellier — 2023-2024 — 63 heures équivalent TD
-<ul>
-  <li> <strong> Algèbre I </strong> (premier semestre) : TD sur les systèmes linéaires pour des étudiants de première année de licence de mathématiques. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/l1-porfil-mineure-info-choix-1-LEO2MUTM/algebre-i-systemes-lineaires-KO8DNX5L.html">ici</a>.</li>
-
-  <li> <strong> Analyse II </strong> (second semestre) : TD d’introduction aux suites, séries et développements limités pour des étudiants de première année de licence de mathématiques. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/analyse-ii-suites-series-developpements-limites-KO8DO78J.html">ici</a>.</li>
-
-  <li> <strong> Agrégation </strong> : participation à la préparation écrite et orale à l’agrégation externe de mathématiques pour les étudiants de Master 2. Informations disponibles <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">ici</a>.</li>
+<div class="teaching-year">
+  <h3>2025–2026</h3><span>60 h</span>
+</div>
+<ul class="teaching-list">
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">Mesure et intégration, Fourier</a>
+    <span class="course-meta">L3 Mathématiques · 1er semestre</span>
+    <p>TD sur l'intégration de Lebesgue.</p>
+  </li>
+  <li>
+    <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">Probabilités</a>
+    <span class="course-meta">L2 Mathématiques · 1er semestre</span>
+    <p>Introduction aux probabilités discrètes et continues.</p>
+  </li>
 </ul>
 
-<p>Université de Montpellier — 2024-2025 — 63 heures équivalent TD
-<ul>
-  <li> <strong> Mesure et intégration, Fourier </strong> (premier semestre) : TD sur l’intégration de Lebesgue pour des étudiants de troisième année de licence de mathématiques. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">ici</a>.</li>
-
-  <li> <strong> Remédiation en mathématiques pour biologistes </strong> (premier semestre) : TD hybride (avec rappels de cours) destiné à accompagner les étudiants de première année de biologie dans la consolidation des bases mathématiques nécessaires à leur formation. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-sciences-de-la-vie-sante-environnement-svse-KNYLZM0G/l1-sciences-de-la-vie-sante-environnement-svse-KNYM0SZU/profil-svse-maths-remedia-M3SG8JAO/profil-serie-1-M3SG8JNA/choix-hav216x-hav213t-M3SG8JWN/remediation-en-mathematiques-s2-KO8EMU9W.html">ici</a>.</li>
+<div class="teaching-year">
+  <h3>2024–2025</h3><span>63 h</span>
+</div>
+<ul class="teaching-list">
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">Mesure et intégration, Fourier</a>
+    <span class="course-meta">L3 Mathématiques · 1er semestre</span>
+    <p>TD sur l'intégration de Lebesgue.</p>
+  </li>
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-sciences-de-la-vie-sante-environnement-svse-KNYLZM0G/l1-sciences-de-la-vie-sante-environnement-svse-KNYM0SZU/profil-svse-maths-remedia-M3SG8JAO/profil-serie-1-M3SG8JNA/choix-hav216x-hav213t-M3SG8JWN/remediation-en-mathematiques-s2-KO8EMU9W.html">Remédiation en mathématiques</a>
+    <span class="course-meta">L1 Biologie · 1er semestre</span>
+    <p>TD hybride (cours et exercices) pour consolider les bases mathématiques utiles en biologie.</p>
+  </li>
 </ul>
 
-
-<p> Université de Montpellier —  2025-2026 —  60 heures équivalent TD
-<ul>
-  <li> <strong> Mesure et intégration, Fourier </strong> (premier semestre) : TD d'intégration de Lebesgue pour L3 Maths. Programme disponible <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">ici</a>.</li>
-  
-  <li> <strong> Probabilité </strong> (premier semestre): TD d'introduction aux probabilités discrètes/continues pour L2 Maths. Programme disponible <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">ici</a>.</li>
+<div class="teaching-year">
+  <h3>2023–2024</h3><span>63 h</span>
+</div>
+<ul class="teaching-list">
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/l1-porfil-mineure-info-choix-1-LEO2MUTM/algebre-i-systemes-lineaires-KO8DNX5L.html">Algèbre I</a>
+    <span class="course-meta">L1 Mathématiques · 1er semestre</span>
+    <p>TD sur les systèmes linéaires.</p>
+  </li>
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/analyse-ii-suites-series-developpements-limites-KO8DO78J.html">Analyse II</a>
+    <span class="course-meta">L1 Mathématiques · 2nd semestre</span>
+    <p>TD sur les suites, les séries et les développements limités.</p>
+  </li>
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">Préparation à l'agrégation</a>
+    <span class="course-meta">M2 Mathématiques</span>
+    <p>Entraînement aux épreuves écrites et orales de l'agrégation externe de mathématiques.</p>
+  </li>
 </ul>
 
+<h2 class="teaching-section">médiation scientifique</h2>
 
-<p> <strong> Encadrement dans le cadre du projet <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/"> "Apprentis Chercheurs" </a> : </strong> </p>
-
-<p>Association L’Arbre des Connaissances — 2023-2024 — 30 heures</p>
-
-<p>En collaboration avec <a href="https://davidmetivier.mistea.inrae.fr/">David Métivier</a>, j’ai encadré un projet dans le cadre du dispositif "Apprentis Chercheurs" (<a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">voir détails</a>). Marius (3ᵉ) et Mattis (1ʳᵉ) ont exploré avec nous des notions liées au hasard, à la simulation numérique et aux algorithmes de bandits. Le projet est consultable sur cette <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">page interactive</a> conçue par David.</p>
-
-<p>Merci aux enseignants et aux élèves d'avoir fait de ces enseignements un moment aussi enrichissant.</p>
+<div class="teaching-year">
+  <h3>
+    <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">Apprentis Chercheurs</a>
+  </h3><span>2023–2024 · 30 h</span>
+</div>
+<p>
+  Avec <a href="https://davidmetivier.mistea.inrae.fr/">David Métivier</a>, j'ai encadré deux collégien et lycéen,
+  Marius et Mattis, qui ont exploré le hasard, la simulation numérique et les algorithmes de bandits.
+  Leur travail est présenté sur une <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">page interactive</a>
+  conçue par David. Le dispositif est porté par l'association <em>L'Arbre des Connaissances</em>.
+</p>
