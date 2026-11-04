@@ -164,7 +164,8 @@
       {% if entry.bibtex_show %}
         <a class="bibtex" role="button"><i class="fa-solid fa-quote-right"></i> bibtex</a>
       {% endif %}
-            {% if entry.url %}
+    
+{% if entry.url %}
         {% assign show_url = true %}
 
         {%- comment -%} Skip if the same link is already shown by another button {%- endcomment -%}
@@ -187,6 +188,9 @@
           {% endif %}
           <a href="{% if entry.url contains '://' %}{{ entry.url }}{% else %}{{ entry.url | relative_url }}{% endif %}"><i class="{{ url_icon }}"></i> {{ url_label }}</a>
         {% endif %}
+      {% endif %}
+        {% if entry.pdf %}
+        <a href="{% if entry.pdf contains '://' %}{{ entry.pdf }}{% else %}{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}{% endif %}"><i class="fa-regular fa-file-pdf"></i> pdf</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="https://arxiv.org/abs/{{ entry.arxiv }}"><i class="ai ai-arxiv"></i> arXiv</a>
