@@ -8,8 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>UMPA, ENS de Lyon · Bureau MGN1.403</p>
+  more_info:
 
 news: true
 selected_papers: true
