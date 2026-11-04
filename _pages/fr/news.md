@@ -7,6 +7,6 @@ nav_order: 3
 lang: fr
 group: news
 permalink: /fr/news/
-related_publications: true
+related_publications: false
 ---
 {% include news.liquid %}
