@@ -1,9 +1,9 @@
 <div class="news">
   {% assign categories = 'conference,talk,local' | split: ',' %}
   {% if page.lang == 'fr' %}
-    {% assign section_titles = 'conférences avec actes,exposés,vie locale' | split: ',' %}
+    {% assign section_titles = 'Conférences avec actes,Exposés,Vie locale' | split: ',' %}
   {% else %}
-    {% assign section_titles = 'conferences with proceedings,talks,local activities' | split: ',' %}
+    {% assign section_titles = 'Conferences with proceedings,Talks,Local activities' | split: ',' %}
   {% endif %}
 
   {% assign all_news = site.data.news | sort: 'date' | reverse %}
