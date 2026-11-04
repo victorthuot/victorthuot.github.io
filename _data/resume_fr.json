@@ -7,7 +7,7 @@
   "work": [
     {
       "institute": "ENS de Lyon, UMPA",
-      "position": "Chercheur postdoctoral",
+      "position": "Postdoctorant",
       "location": "Lyon, France",
       "url": "https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures/",
       "startDate": "2026-10-01",
@@ -15,17 +15,6 @@
         "<b>laboratoire</b> : <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'>UMPA</a>, <a href='https://www.ens-lyon.fr/'>ENS de Lyon</a>",
         "<b>encadrement</b> : <a href='https://perso.ens-lyon.fr/aurelien.garivier/'>Aurélien Garivier</a>",
         "<b>recherche</b> : apprentissage automatique, bandits, apprentissage par renforcement"
-      ]
-    },
-    {
-      "institute": "Université de Potsdam",
-      "position": "Doctorant invité",
-      "location": "Potsdam, Allemagne",
-      "url": "https://www.uni-potsdam.de/",
-      "startDate": "2025-03-01",
-      "endDate": "2025-05-01",
-      "highlights": [
-        "Séjour de recherche de deux mois auprès d'<a href='https://sites.google.com/site/alexandracarpentierresearch/'>Alexandra Carpentier</a>"
       ]
     },
     {
@@ -59,6 +48,17 @@
       ]
     },
     {
+      "institution": "Université de Potsdam",
+      "studyType": "Doctorant invité",
+      "location": "Potsdam, Allemagne",
+      "url": "https://www.uni-potsdam.de/",
+      "startDate": "2025-03-01",
+      "endDate": "2025-05-01",
+      "courses": [
+        "Séjour de recherche de deux mois auprès d'<a href='https://sites.google.com/site/alexandracarpentierresearch/'>Alexandra Carpentier</a>"
+      ]
+    },
+    {
       "institution": "ENS Rennes, Université de Rennes",
       "location": "Rennes, France",
       "url": "https://math.ens-rennes.fr/",
@@ -69,19 +69,8 @@
       "courses": [
         "2023 : master de mathématiques, parcours probabilités, mention très bien",
         "2022 : agrégation externe de mathématiques, option A, rang 66/365",
+        "2020 : double licence mathématiques-informatique, mention très bien",
         "2019 : admission sur concours à l'ENS Rennes"
-      ]
-    },
-    {
-      "institution": "ISTIC, Université de Rennes",
-      "location": "Rennes, France",
-      "url": "https://istic.univ-rennes.fr/licence-informatique",
-      "area": "Informatique",
-      "studyType": "Licence d'informatique",
-      "startDate": "2019",
-      "endDate": "2020",
-      "courses": [
-        "Informatique théorique, algorithmique, programmation ; mention très bien"
       ]
     },
     {
