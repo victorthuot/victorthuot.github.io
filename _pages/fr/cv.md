@@ -1,7 +1,7 @@
 ---
-layout: CV
+layout: cv
 permalink: /fr/cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
 lang: fr
