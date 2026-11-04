@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /fr/enseignement/
-title: enseignement
+title: Enseignement
 description: 
 nav: true
 nav_order: 6
