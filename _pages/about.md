@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about me
+title: About me
 permalink: /
 subtitle: <h4>Postdoctoral researcher at <a href='https://www.ens-lyon.fr/recherche/structures-de-recherche/laboratoires-et-structures-internes/unite-de-mathematiques-pures'>UMPA</a>, <a href='https://www.ens-lyon.fr/'>ENS de Lyon</a></h4>
 
