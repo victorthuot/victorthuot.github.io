@@ -1,45 +1,82 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching 
-description: 
+title: teaching
+description:
 nav: true
 nav_order: 6
 lang: en
 group: teaching
 ---
 
-<hr />
-<p> <strong> Teaching assistant at <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>: </strong> </p>
+<p class="teaching-intro">
+  Teaching assistant at the <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>
+  during my PhD (2023–2026), for a total of <strong>186 tutorial hours</strong>.
+</p>
 
-<p>University of Montpellier -- 2023-2024 -- 63 hours (équivalent TD)
-<ul>
-  <li> <strong> Algebra I </strong>> (first semester): exercise sessions on linear systems for first-year Mathematics students. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/l1-porfil-mineure-info-choix-1-LEO2MUTM/algebre-i-systemes-lineaires-KO8DNX5L.html">here</a>.</li>
-  
-  <li> <strong> Analysis II </strong> (second semester): exercise sessions introducing sequences, series, and series expansions for first-year Mathematics students . Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/analyse-ii-suites-series-developpements-limites-KO8DO78J.html">here</a>.</li>
-  
-  <li> <strong> Agrégation </strong> : Contribution to the preparation for written and oral examinations for Master 2 students preparing the French 'Agrégation' in Mathematics. Preparation details <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">here</a>.</li>
+<div class="teaching-year">
+  <h3>2025–2026</h3><span>60 h</span>
+</div>
+<ul class="teaching-list">
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">Measure and Integration, Fourier</a>
+    <span class="course-meta">L3 Mathematics · Fall</span>
+    <p>Exercise sessions on Lebesgue integration.</p>
+  </li>
+  <li>
+    <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">Probability</a>
+    <span class="course-meta">L2 Mathematics · Fall</span>
+    <p>Introduction to discrete and continuous probability.</p>
+  </li>
 </ul>
 
-<p> University of Montpellier -- 2024-2025 -- 63 hours (équivalent TD)
-<ul>
-  <li> <strong>  Measure and Integration, Fourier </strong>> (first semester): exercise sessions on intégration de Lebesgue for third-year mathematics students. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">here</a>.</li>
-  
-  <li> <strong> Math Remediation for biologists </strong> (first semester): a hybrid course combining lectures and exercises to help first-year biology students improve their math skills necessary for biology. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-sciences-de-la-vie-sante-environnement-svse-KNYLZM0G/l1-sciences-de-la-vie-sante-environnement-svse-KNYM0SZU/profil-svse-maths-remedia-M3SG8JAO/profil-serie-1-M3SG8JNA/choix-hav216x-hav213t-M3SG8JWN/remediation-en-mathematiques-s2-KO8EMU9W.html">here</a>.</li>
+<div class="teaching-year">
+  <h3>2024–2025</h3><span>63 h</span>
+</div>
+<ul class="teaching-list">
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">Measure and Integration, Fourier</a>
+    <span class="course-meta">L3 Mathematics · Fall</span>
+    <p>Exercise sessions on Lebesgue integration.</p>
+  </li>
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-sciences-de-la-vie-sante-environnement-svse-KNYLZM0G/l1-sciences-de-la-vie-sante-environnement-svse-KNYM0SZU/profil-svse-maths-remedia-M3SG8JAO/profil-serie-1-M3SG8JNA/choix-hav216x-hav213t-M3SG8JWN/remediation-en-mathematiques-s2-KO8EMU9W.html">Mathematics for biologists</a>
+    <span class="course-meta">L1 Biology · Fall</span>
+    <p>Hybrid course (lectures and exercises) strengthening the mathematical skills needed in biology.</p>
+  </li>
 </ul>
 
-<p> University of Montpellier -- 2025-2026 -- 60 hours (équivalent TD)
-<ul>
-  <li> <strong>  Measure and Integration, Fourier </strong>> (first semester): exercise sessions on intégration de Lebesgue for third-year mathematics students. Program details <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l2-l3-licence-mathematiques-ME131/licence-3-KKNVPYO6/l3-maths-generales-KKNZPBR4/mesure-et-integration-fourier-KO9U8T5Z.html">here</a>.</li>
-  
-  <li> <strong> Probability </strong> (first semester): introduction to discrete/continuous probability for second-year Bachelor's. Program details <a href="https://formations.umontpellier.fr/plugins/odf-web/um1/_content/course-course1-theorie-des-probabilites-fr/Th%C3%A9orie%20des%20Probabilit%C3%A9s.pdf">here</a>.</li>
+<div class="teaching-year">
+  <h3>2023–2024</h3><span>63 h</span>
+</div>
+<ul class="teaching-list">
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/l1-porfil-mineure-info-choix-1-LEO2MUTM/algebre-i-systemes-lineaires-KO8DNX5L.html">Algebra I</a>
+    <span class="course-meta">L1 Mathematics · Fall</span>
+    <p>Exercise sessions on linear systems.</p>
+  </li>
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/licence-XA/l1-portail-mathematiques-et-ses-applications-KNYL57V4/l1-mathematiques-et-ses-applications-LEO1YPFM/l1-maths-mineure-info-KNYL6D5Y/analyse-ii-suites-series-developpements-limites-KO8DO78J.html">Analysis II</a>
+    <span class="course-meta">L1 Mathematics · Spring</span>
+    <p>Exercise sessions on sequences, series and Taylor expansions.</p>
+  </li>
+  <li>
+    <a href="https://formations.umontpellier.fr/fr/formations/master-XB/master-mathematiques-ME157//preparation-a-l-agregation-externe-de-mathematiques-prepa-agreg-PR500.html">Agrégation preparation</a>
+    <span class="course-meta">M2 Mathematics</span>
+    <p>Written and oral exam training for the French <em>agrégation</em> in mathematics.</p>
+  </li>
 </ul>
 
----
+<h2 class="teaching-section">outreach</h2>
 
-<p> <strong> Mentoring for the project  <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/"> "Apprentis chercheurs" </a>: </strong> </p>
- 
-<p> Assocication "L'arbre des connaissances" -- 2023-2024 -- 30 hours </p>
-
-<p>In addition, I mentored with <a href="https://davidmetivier.mistea.inrae.fr/">David Métivier</a> a project called "Apprentis Chercheurs" (<a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">details here</a>). Marius Bertrand (3ème) and Mattis Dodson (1ère) explored randomness, numerical simulation, and bandit algorithms under our guidance. The project can be found on this interactive <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">webpage</a> created by David.</p>
-
+<div class="teaching-year">
+  <h3>
+    <a href="https://arbre-des-connaissances-apsr.org/nos-actions/les-apprentis-chercheurs/">Apprentis Chercheurs</a>
+  </h3><span>2023–2024 · 30 h</span>
+</div>
+<p>
+  With <a href="https://davidmetivier.mistea.inrae.fr/">David Métivier</a>, I mentored two high-school students,
+  Marius Bertrand and Mattis Dodson, who explored randomness, numerical simulation and bandit algorithms.
+  Their work is presented on an <a href="https://dmetivie.github.io/Pluto_export/pluto_apprentis_chercheur.html">interactive page</a>
+  built by David. The program is run by the association <em>L'arbre des connaissances</em>.
+</p>
