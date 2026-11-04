@@ -7,8 +7,8 @@ first_name: Victor
 middle_name: 
 last_name: Thuot
 email: victor.thuot@ens-lyon.fr
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  "PhD student in statistics in INRAE Montpellier"
+description: > 
+Postdoctoral researcher at UMPA, ENS de Lyon. Bandit theory, active learning and reinforcement learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -60,7 +60,7 @@ max_width: 800px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: https://victorthuot.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
