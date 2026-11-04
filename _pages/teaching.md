@@ -11,7 +11,7 @@ group: teaching
 
 <p class="teaching-intro">
   Teaching assistant at the <a href="https://maths-fds.edu.umontpellier.fr/">University of Montpellier</a>
-  during my PhD (2023–2026), for a total of <strong>186 tutorial hours</strong>.
+  during my PhD, with <strong>three full-year teaching assignments</strong> (2023–2026).
 </p>
 
 <div class="teaching-year">
