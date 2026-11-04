@@ -7,8 +7,8 @@ first_name: Victor
 middle_name: 
 last_name: Thuot
 email: victor.thuot@ens-lyon.fr
-description: > 
-Postdoctoral researcher at UMPA, ENS de Lyon. Bandit theory, active learning and reinforcement learning.
+description: >
+  Postdoctoral researcher at UMPA, ENS de Lyon. Bandit theory, active learning and reinforcement learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
