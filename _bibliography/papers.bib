@@ -13,7 +13,6 @@
   year        = {2025},
   month       = feb,
   url         = {https://proceedings.mlr.press/v272/thuot25a.html},
-  pdf         = {https://raw.githubusercontent.com/mlresearch/v272/main/assets/thuot25a/thuot25a.pdf},
   poster      = {poster_ALT_feb2025.pdf},
   slides      = {slide_ALT_feb2025.pdf},
   video       = {https://www.youtube.com/watch?v=RmEcxjNeCPA},
@@ -49,7 +48,6 @@
   year        = {2025},
   month       = jul,
   url         = {https://openreview.net/forum?id=99zsyZpUqp},
-  pdf         = {https://openreview.net/pdf?id=99zsyZpUqp},
   poster      = {https://icml.cc/media/PosterPDFs/ICML%202025/46248.png?t=1751457454.1604605},
   abstract    = {We study the problem of clustering a set of items based on bandit feedback. Each of the n items is characterized by a feature vector, with a possibly large dimension d. The items are partitioned into two unknown groups, such that items within the same group share the same feature vector. We consider a sequential and adaptive setting in which, at each round, the learner selects one item and one feature, then observes a noisy evaluation of the item's feature. The learner's objective is to recover the correct partition of the items, while keeping the number of observations as small as possible. We provide an algorithm which relies on finding a relevant feature for the clustering task, leveraging the Sequential Halving algorithm. With probability at least 1 − δ, we obtain an accurate recovery of the partition and derive an upper bound on the budget required. Furthermore, we obtain an instance-dependent lower bound, which is tight in some relevant cases.}
 }
@@ -65,7 +63,6 @@
   month       = dec,
   note        = {To appear},
   url         = {https://hal.science/hal-05551276},
-  pdf         = {https://hal.science/hal-05551276/document},
   poster      = {poster_CWI_Neurips_dec2026.pdf},
   abstract    = {We study best-arm identification in stochastic dueling bandits under the sole assumption that a Condorcet winner exists, i.e., an arm that wins each noisy pairwise comparison with probability at least 1/2. We introduce a new identification procedure that exploits the full gap matrix Δ(i,j) = q(i,j) − 1/2 (where q(i,j) is the probability that arm i beats arm j), rather than only the gaps between the Condorcet winner and the other arms. We derive high-probability, instance-dependent sample-complexity guarantees that (up to logarithmic factors) improve the best known ones by leveraging informative comparisons beyond those involving the winner. We complement these results with new lower bounds which, to our knowledge, are the first for Condorcet-winner identification in stochastic dueling bandits. Our lower-bound analysis isolates the intrinsic cost of locating informative entries in the gap matrix and estimating them to the required confidence, establishing the optimality of our non-asymptotic bounds. Overall, our results reveal new regimes and trade-offs in the sample complexity that are not captured by asymptotic analyses based only on the expected budget.}
 }
@@ -99,6 +96,5 @@
   month       = oct,
   note        = {Preprint},
   url         = {https://hal.science/hal-05451062},
-  pdf         = {https://hal.science/hal-05451062/document},
   abstract    = {Clustering with bandit feedback refers to the problem of partitioning the arms of an N-armed stochastic bandit according to their underlying distributions, based on noisy observations collected sequentially and adaptively. This setting has attracted growing interest for its applicability in recommendation systems, crowdsourcing, and adaptive trials. Existing works rely on the strong assumption that arm distributions are sub-Gaussian, which can only distinguish arms whose distributions differ in mean - missing realistic settings where distributional differences lie in shape or higher moments. We introduce a framework of nonparametric clustering with bandit feedback, free of any parametric assumptions regarding the arm distributions. We adopt a kernel-based approach and reformulate the problem as clustering arms according to their kernel mean embeddings in a reproducing kernel Hilbert space (RKHS). Building on this formulation, we introduce the KABC algorithm, prove that it is δ-PAC, and derive a non-asymptotic high-probability upper bound on its sampling complexity. The bound is governed by a variance-aware signal-to-noise ratio defined as the minimum over pairs of arms in distinct clusters of the ratio between their squared MMD and their RKHS variance. KABC achieves instance-dependent guarantees while being adaptive to this unknown ratio. We validate our approach empirically on synthetic and real-world datasets, demonstrating that KABC succeeds in distributional clustering settings where mean-based methods fail.}
 }
