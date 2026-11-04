@@ -193,12 +193,14 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 55%;
+  margin: 0 auto 1rem;
 
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
 
     p {
       display: inline-block;
@@ -215,28 +217,22 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+@media (max-width: 575.98px) {
+  .profile.float-right,
+  .profile.float-left {
+    float: none !important;
+    margin: 0 auto 1rem;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
 
     .address {
       p {
         display: block;
       }
-    }
-  }
-}
-
-.post-description {
-  margin-bottom: 2rem;
-  font-size: 0.875rem;
-
-  a {
-    color: inherit;
-
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
     }
   }
 }
