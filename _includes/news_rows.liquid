@@ -1,0 +1,54 @@
+{%- comment -%}
+  Table of news items from _data/news.yml.
+  Usage: {% include news_rows.liquid items=some_news %}
+  Text, link labels and date format follow page.lang (en / fr).
+{%- endcomment -%}
+{% if page.lang == 'fr' %}
+  {% assign date_format = '%d/%m/%y' %}
+{% else %}
+  {% assign date_format = '%b %-d, %Y' %}
+{% endif %}
+<div class="table-responsive">
+  <table class="table table-sm table-borderless">
+    {% for item in include.items %}
+      {% assign item_text = item[page.lang] | default: item.en %}
+      <tr>
+        <th scope="row" style="width: 1%; white-space: nowrap; padding-right: 1.5rem;">
+          <div><strong>{{ item.date | date: date_format }}</strong></div>
+          {% if item.tag %}
+            <div style="font-weight: normal; font-size: 0.9em; margin-top: 0.2em;"><strong>{{ item.tag }}</strong></div>
+          {% endif %}
+        </th>
+        <td>
+          {{ item_text | markdownify | remove: '<p>' | remove: '</p>' }}
+          {% if item.links %}
+            <div class="news-links">
+              {% for link in item.links %}
+                {% case link.type %}
+                  {% when 'slides' %}
+                    {% assign icon = 'fa-solid fa-person-chalkboard' %}{% assign label = 'slides' %}
+                  {% when 'poster' %}
+                    {% assign icon = 'fa-regular fa-image' %}{% assign label = 'poster' %}
+                  {% when 'video' %}
+                    {% assign icon = 'fa-solid fa-video' %}{% if page.lang == 'fr' %}{% assign label = 'vidéo' %}{% else %}{% assign label = 'video' %}{% endif %}
+                  {% when 'abstract' %}
+                    {% assign icon = 'fa-solid fa-align-left' %}{% if page.lang == 'fr' %}{% assign label = 'résumé' %}{% else %}{% assign label = 'abstract' %}{% endif %}
+                  {% when 'manuscript' %}
+                    {% assign icon = 'fa-solid fa-book' %}{% if page.lang == 'fr' %}{% assign label = 'manuscrit' %}{% else %}{% assign label = 'manuscript' %}{% endif %}
+                  {% when 'page' %}
+                    {% assign icon = 'fa-solid fa-arrow-up-right-from-square' %}{% if page.lang == 'fr' %}{% assign label = 'projet' %}{% else %}{% assign label = 'project' %}{% endif %}
+                  {% when 'image' %}
+                    {% assign icon = 'fa-regular fa-image' %}{% assign label = 'image' %}
+                  {% else %}
+                    {% assign icon = 'fa-regular fa-file-pdf' %}{% assign label = 'pdf' %}
+                {% endcase %}
+                {% if link.label %}{% assign label = link.label %}{% endif %}
+                <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"><i class="{{ icon }}"></i> {{ label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
