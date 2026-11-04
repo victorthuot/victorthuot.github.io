@@ -16,22 +16,28 @@
   tag: NeurIPS
   category: conference
   selected: true
-  en: "[The Sample Complexity of Multiple Change Point Identification under Bandit Feedback](https://arxiv.org/abs/2605.13252), with Maximilian Graf, accepted at NeurIPS 2026."
-  fr: "[The Sample Complexity of Multiple Change Point Identification under Bandit Feedback](https://arxiv.org/abs/2605.13252), avec Maximilian Graf, accepté à NeurIPS 2026."
+  en: "[The Sample Complexity of Multiple Change Point Identification under Bandit Feedback](https://arxiv.org/abs/2605.13252), with Maximilian Graf, a été accepted at NeurIPS 2026."
+  fr: "[The Sample Complexity of Multiple Change Point Identification under Bandit Feedback](https://arxiv.org/abs/2605.13252), avec Maximilian Graf, a été accepté à NeurIPS 2026."
+  links:
+    - type: poster
+      url: /assets/pdf/poster_CPI_Neurips_dec2026.pdf
 
 - date: 2026-10-01
   tag: NeurIPS
   category: conference
   selected: true
   en: "[The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits](https://hal.science/hal-05551276), with El Mehdi Saad and Nicolas Verzelen, accepted at NeurIPS 2026."
-  fr: "[The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits](https://hal.science/hal-05551276), avec El Mehdi Saad et Nicolas Verzelen, accepté à NeurIPS 2026."
+  fr: "[The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits](https://hal.science/hal-05551276), avec El Mehdi Saad et Nicolas Verzelen, a été accepté à NeurIPS 2026."
+  links:
+    - type: poster
+      url: /assets/pdf/poster_CWI_Neurips_dec2026.pdf
 
 - date: 2025-07-15
   tag: ICML
   category: conference
   selected: true
   en: "[Clustering Items through Bandit Feedback](https://openreview.net/forum?id=99zsyZpUqp), with Maximilian Graf and Nicolas Verzelen, accepted at ICML 2025 (Vancouver), where Maximilian presented the poster."
-  fr: "[Clustering Items through Bandit Feedback](https://openreview.net/forum?id=99zsyZpUqp), avec Maximilian Graf et Nicolas Verzelen, accepté à ICML 2025 (Vancouver), où Maximilian a présenté le poster."
+  fr: "[Clustering Items through Bandit Feedback](https://openreview.net/forum?id=99zsyZpUqp), avec Maximilian Graf et Nicolas Verzelen, a été accepté à ICML 2025 (Vancouver), où Maximilian a présenté le poster."
   links:
     - type: poster
       url: https://icml.cc/media/PosterPDFs/ICML%202025/46248.png
@@ -41,7 +47,7 @@
   category: conference
   selected: true
   en: "My first paper, [Clustering with Bandit Feedback](https://proceedings.mlr.press/v272/thuot25a.html), with Alexandra Carpentier, Christophe Giraud and Nicolas Verzelen, accepted at ALT 2025 (Milan), with a talk and a poster."
-  fr: "Mon premier article, [Clustering with Bandit Feedback](https://proceedings.mlr.press/v272/thuot25a.html), avec Alexandra Carpentier, Christophe Giraud et Nicolas Verzelen, accepté à ALT 2025 (Milan), avec un exposé et un poster."
+  fr: "Mon premier article, [Clustering with Bandit Feedback](https://proceedings.mlr.press/v272/thuot25a.html), avec Alexandra Carpentier, Christophe Giraud et Nicolas Verzelen, a été accepté à ALT 2025 (Milan), avec un exposé et un poster."
   links:
     - type: slides
       url: /assets/pdf/slide_ALT_feb2025.pdf
@@ -67,8 +73,8 @@
 - date: 2026-06-03
   tag: JDS
   category: talk
-  en: "Talk at the [Journées de Statistique 2026](https://jds2026.sciencesconf.org/) (SFDS) on [clustering items through bandit feedback](/publications/#graf2025clustering)."
-  fr: "Exposé aux [Journées de Statistique 2026](https://jds2026.sciencesconf.org/) (SFDS) sur le [clustering d'items par retour bandit](/publications/#graf2025clustering)."
+  en: "Talk at the [Journées de Statistique 2026](https://jds2026.sciencesconf.org/) (SFDS) on [bandit clustering with feature selection](/publications/#graf2025clustering)."
+  fr: "Exposé aux [Journées de Statistique 2026](https://jds2026.sciencesconf.org/) (SFDS) sur le [*bandit clustering* avec sélection d'attributs](/publications/#graf2025clustering)."
   links:
     - type: slides
       url: /assets/pdf/slides_jds_june2026.pdf
@@ -84,8 +90,8 @@
 - date: 2025-09-05
   tag: StatMathAppli
   category: talk
-  en: "Talk at [StatMathAppli 2025](https://statmathappli.mathnum.inrae.fr/fr/) (Fréjus) on [clustering items through bandit feedback](/publications/#graf2025clustering)."
-  fr: "Exposé à [StatMathAppli 2025](https://statmathappli.mathnum.inrae.fr/fr/) (Fréjus) sur le [clustering d'items par retour bandit](/publications/#graf2025clustering)."
+  en: "Talk at [StatMathAppli 2025](https://statmathappli.mathnum.inrae.fr/fr/) (Fréjus) on [bandit clustering with feature selection](/publications/#graf2025clustering)."
+  fr: "Exposé à [StatMathAppli 2025](https://statmathappli.mathnum.inrae.fr/fr/) (Fréjus) sur le [*bandit clustering* avec sélection d'attributs](/publications/#graf2025clustering)."
   links:
     - type: slides
       url: /assets/pdf/slides_SMA_sept2025.pdf
@@ -93,8 +99,8 @@
 - date: 2025-06-18
   tag: ASCAI
   category: talk
-  en: "Talk at the [4th ASCAI workshop](https://www.imo.universite-paris-saclay.fr/fr/conf/ascai-meeting/) (Orsay) on [clustering items through bandit feedback](/publications/#graf2025clustering)."
-  fr: "Exposé au [4e workshop ASCAI](https://www.imo.universite-paris-saclay.fr/fr/conf/ascai-meeting/) (Orsay) sur le [clustering d'items par retour bandit](/publications/#graf2025clustering)."
+  en: "Talk at the [4th ASCAI workshop](https://www.imo.universite-paris-saclay.fr/fr/conf/ascai-meeting/) (Orsay) on [bandit clustering with feature selection](/publications/#graf2025clustering)."
+  fr: "Exposé au [4e workshop ASCAI](https://www.imo.universite-paris-saclay.fr/fr/conf/ascai-meeting/) (Orsay) sur le [*bandit clustering* avec sélection d'attributs](/publications/#graf2025clustering)."
   links:
     - type: slides
       url: /assets/pdf/slides_ASCAI_june2025.pdf
@@ -117,8 +123,8 @@
 - date: 2024-02-20
   tag: ASCAI
   category: talk
-  en: "First talk on [clustering with bandit feedback](/publications/#pmlr-v272-thuot25a) at the [3rd ASCAI workshop](https://sites.google.com/view/prci-ascai/accueil) (Potsdam)."
-  fr: "Premier exposé sur le [clustering avec retour bandit](/publications/#pmlr-v272-thuot25a) au [3e workshop ASCAI](https://sites.google.com/view/prci-ascai/accueil) (Potsdam)."
+  en: "First talk on [bandit clustering](/publications/#pmlr-v272-thuot25a) at the [3rd ASCAI workshop](https://sites.google.com/view/prci-ascai/accueil) (Potsdam)."
+  fr: "Premier exposé sur le [*bandit clustering*](/publications/#pmlr-v272-thuot25a) au [3e workshop ASCAI](https://sites.google.com/view/prci-ascai/accueil) (Potsdam)."
   links:
     - type: slides
       url: /assets/pdf/slides_ASCAI_fev2024.pdf
@@ -146,8 +152,8 @@
 - date: 2025-06-03
   tag: MIPS
   category: local
-  en: "Short talk on [clustering items through bandit feedback](/publications/#graf2025clustering) at the MIPS week (Université de Montpellier)."
-  fr: "Court exposé sur le [clustering d'items par retour bandit](/publications/#graf2025clustering) lors de la semaine MIPS (Université de Montpellier)."
+  en: "Short talk on [bandit clustering with feature selection](/publications/#graf2025clustering) at the MIPS week (Université de Montpellier)."
+  fr: "Court exposé sur le [*bandit clustering* avec sélection d'attributs](/publications/#graf2025clustering) lors de la semaine MIPS (Université de Montpellier)."
   links:
     - type: slides
       url: /assets/pdf/slides_MIPS_june2025.pdf
@@ -175,8 +181,8 @@
 - date: 2024-05-02
   tag: Seminar
   category: local
-  en: "Talk on [clustering with bandit feedback](/publications/#pmlr-v272-thuot25a) at the ML-MTP seminar (Inria Montpellier)."
-  fr: "Exposé sur le [clustering avec retour bandit](/publications/#pmlr-v272-thuot25a) au séminaire ML-MTP (Inria Montpellier)."
+  en: "Talk on [bandit clustering](/publications/#pmlr-v272-thuot25a) at the ML-MTP seminar (Inria Montpellier)."
+  fr: "Exposé sur le [*bandit clustering*](/publications/#pmlr-v272-thuot25a) au séminaire ML-MTP (Inria Montpellier)."
   links:
     - type: slides
       url: /assets/pdf/slides_ML-MTP_may2024.pdf
